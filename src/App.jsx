@@ -1,13 +1,14 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import circleLogo from "/dblogo-whitecircle.png";
 import "./App.css";
 
 function App() {
   return (
     <>
       <div className="align-center justify-center">
-        <h1 className="text-red-500">Hello Vite + React!</h1>
+        <img src={circleLogo} className="App-logo" alt="logo" />
       </div>
     </>
   );
