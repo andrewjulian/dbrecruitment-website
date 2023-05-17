@@ -1,9 +1,15 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import circleLogo from "/dblogo-whitecircle.png";
 import Navbar from "./Components/Navbar";
 import "./App.css";
+import { Routes, Route, Navigate } from "react-router-dom";
+
+import Hero from "./Components/Hero";
+import About from "./Components/About";
+import Services from "./Components/Services";
+import Team from "./Components/Team";
+import Testimonials from "./Components/Testimonials";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -11,6 +17,16 @@ function App() {
       <div className="align-center justify-center">
         <Navbar />
         <img src={circleLogo} className="App-logo" alt="logo" />
+
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
       </div>
     </>
   );
