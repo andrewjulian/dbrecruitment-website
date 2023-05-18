@@ -16,8 +16,6 @@ function App() {
     <>
       <div className="align-center justify-center">
         <Navbar />
-        <img src={circleLogo} className="App-logo" alt="logo" />
-
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
