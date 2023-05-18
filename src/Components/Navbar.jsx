@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="flex justify-center my-auto mr-5 ">
           <Link
             to="/"
-            className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-lg font-medium"
+            className="text-white hover:text-gray-300 hover:border-b hover:border-[#6b6ff] px-3 py-2  text-lg font-medium"
           >
             Home
           </Link>
@@ -28,25 +28,25 @@ const Navbar = () => {
           </Link>
           <Link
             to="/services"
-            className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-lg font-medium"
+            className="text-white hover:text-gray-300 hover:border-b hover:border-[#6b6ff] px-3 py-2  text-lg font-medium"
           >
             Services
           </Link>
           <Link
             to="/team"
-            className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-lg font-medium"
+            className="text-white hover:text-gray-300 hover:border-b hover:border-[#6b6ff] px-3 py-2  text-lg font-medium"
           >
             Team
           </Link>
           <Link
             to="/testimonials"
-            className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-lg font-medium"
+            className="text-white hover:text-gray-300 hover:border-b hover:border-[#6b6ff] px-3 py-2  text-lg font-medium"
           >
             Testimonials
           </Link>
           <Link
             to="/contact"
-            className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-lg font-medium"
+            className="text-white hover:text-gray-300 hover:border-b hover:border-[#6b6ff] px-3 py-2  text-lg font-medium"
           >
             Contact
           </Link>
