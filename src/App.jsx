@@ -2,7 +2,7 @@ import { useState } from "react";
 import circleLogo from "/dblogo-whitecircle.png";
 import Navbar from "./Components/Navbar";
 import "./App.css";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, Link } from "react-router-dom";
 
 import Hero from "./Components/Hero";
 import About from "./Components/About";
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div className="align-center justify-center">
-        <Navbar />
+        <Navbar link={Link} />
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
