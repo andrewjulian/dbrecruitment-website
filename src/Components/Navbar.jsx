@@ -11,6 +11,9 @@ const Navbar = () => {
             className="h-[50px] w-auto"
             alt="logo"
           />
+          <h1 className="text-white text-2xl ml-4 my-auto">
+            DB Recruitment Group
+          </h1>
         </div>
 
         <div className="flex justify-center my-auto mr-5 ">
