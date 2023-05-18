@@ -15,11 +15,11 @@ const Hero = () => {
             </p>
             <a
               href="#"
-              className="inline-flex items-center justify-center px-5 py-3 mx-3 text-base font-medium text-center text-white bg-blue-900 border-gray-700 hover:bg-gray-700 focus:ring-gray-800 rounded-xl"
+              className="inline-flex items-center justify-center px-5 py-3 mx-3 text-base font-medium text-center text-white bg-[#36b6ff] rounded-xl"
             >
               Contact Us
               <svg
-                className="w-5 h-5 ml-2 -mr-1"
+                className="w-5 h-5 ml-2 mr-1"
                 fill="white"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
