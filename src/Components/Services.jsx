@@ -32,10 +32,14 @@ const Services = () => {
 
   return (
     <>
-      <div className="bg-white dark:bg-gray-900">
-        <h1 className="text-center text-[50px]"> Industries We Serve </h1>
-        <div className="mx-auto mt-2 flex max-w-screen-xl gap-2 px-4">
-          {displayServices}
+      <div className="mt-1">
+        <h3 className="mx-[9%] mb-1 text-2xl">
+          We are currently working with the following industries.
+        </h3>
+        <div className="mx-[8%] bg-white dark:bg-gray-900">
+          <div className="mx-auto flex w-[100%]  gap-4 px-4">
+            {displayServices}
+          </div>
         </div>
       </div>
     </>
