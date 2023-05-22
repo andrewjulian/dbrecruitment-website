@@ -8,19 +8,19 @@ const industryList = [
   {
     title: "Cybersecurity",
     description:
-      "We work with companies in the cybersecurity industry to find top talent for their open positions.",
+      "DBRG specializes in placements in Private and Federal the Contracting requiring clearances.",
     icons: <HiLockClosed className="my-auto" size="25" />,
   },
   {
     title: "MSP",
     description:
-      "We work with companies in the MSP industry to find top talent for their open positions.",
+      "DBRG works with both Partner and End-Users that need Managed Services Tech professionals.",
     icons: <BsFillPersonVcardFill className="my-auto" size="25" />,
   },
   {
     title: "SaaS",
     description:
-      "We work with companies in the SaaS industry to find top talent for their open positions.",
+      "DBRG supports burgeoning tech organizations that seek to build their Data & Software Teams.",
     icons: <HiOutlineDesktopComputer className="my-auto" size="25" />,
   },
 ];
@@ -32,12 +32,12 @@ const Industries = () => {
 
   return (
     <>
-      <div className="mt-1">
-        <h3 className="mx-[10.5%] mb-4 text-2xl">
+      <div className="mx-[10%] mt-1">
+        <h3 className="mb-4 px-4 text-2xl">
           We are currently working with the following industries.
         </h3>
-        <div className="mx-[9.5%] bg-white dark:bg-gray-900">
-          <div className="mx-auto flex  gap-4 px-4">{displayIndustries}</div>
+        <div className="bg-white dark:bg-gray-900">
+          <div className="grid grid-cols-3 gap-4 px-4">{displayIndustries}</div>
         </div>
       </div>
     </>
