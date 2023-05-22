@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <div className="bg-white dark:bg-gray-900">
-        <div className="mx-auto mt-10 flex max-w-screen-xl px-4 py-4">
+        <div className="mx-auto mt-10 flex max-w-screen-xl px-4 py-1">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
               Empower Your Business With Our Top Talent
@@ -16,7 +16,7 @@ const Hero = () => {
               connecting exceptional talent with companies looking for top tier
               cantidates.
             </p>
-            <div className="mt-10">
+            <div className="mt-5">
               <a
                 href="#"
                 className="inline-flex items-center justify-center rounded-xl bg-[#36b6ff] px-5 py-3 text-center text-base font-medium text-white hover:text-black"

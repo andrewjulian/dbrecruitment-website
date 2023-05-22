@@ -18,6 +18,7 @@ function App() {
       <div className="align-center justify-center">
         <Navbar link={Link} />
         <Hero />
+
         <Routes>
           <Route path="/" element={<Temp />} />
           <Route path="/about" element={<About />} />
