@@ -16,18 +16,20 @@ const Hero = () => {
               connecting exceptional talent with companies looking for top tier
               cantidates.
             </p>
-            <a
-              href="#"
-              className="inline-flex items-center justify-center rounded-xl bg-[#36b6ff] px-5 py-3 text-center text-base font-medium text-white hover:text-black"
-            >
-              Meet The Team
-            </a>
-            <a
-              href="#"
-              className="mx-3 inline-flex items-center justify-center rounded-xl bg-[#36b6ff] px-5 py-3 text-center text-base font-medium text-white hover:text-black"
-            >
-              Contact Us
-            </a>
+            <div className="mt-10">
+              <a
+                href="#"
+                className="inline-flex items-center justify-center rounded-xl bg-[#36b6ff] px-5 py-3 text-center text-base font-medium text-white hover:text-black"
+              >
+                Meet The Team
+              </a>
+              <a
+                href="#"
+                className="mx-3 inline-flex items-center justify-center rounded-xl bg-[#36b6ff] px-5 py-3 text-center text-base font-medium text-white hover:text-black"
+              >
+                Contact Us
+              </a>
+            </div>
           </div>
           <div className="lg:mt-2 lg:flex">
             <img className="rounded-xl" src="/hero.jpeg" alt="mockup" />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Industry = ({ industry }) => {
   return (
-    <div className="max-w-lg rounded-lg border border-gray-200 bg-white p-6 shadow dark:border-gray-700 dark:bg-gray-800">
+    <div className="max-w-lg rounded-lg border border-[#36b6ff] bg-white p-6 shadow-md shadow-[#36b6ff50]">
       <div className="flex">
         {industry.icons}
         <h5 className="m-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">

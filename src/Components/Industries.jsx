@@ -33,11 +33,11 @@ const Industries = () => {
   return (
     <>
       <div className="mt-1">
-        <h3 className="mx-[9%] mb-1 text-2xl">
+        <h3 className="mx-[9%] mb-4 text-2xl">
           We are currently working with the following industries.
         </h3>
         <div className="mx-[8%] bg-white dark:bg-gray-900">
-          <div className="mx-auto flex w-[100%]  gap-4 px-4">
+          <div className="mx-auto flex w-[100%] gap-4 px-4">
             {displayIndustries}
           </div>
         </div>
