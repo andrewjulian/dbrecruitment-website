@@ -30,12 +30,12 @@ const Services = () => {
     },
   ];
   return (
-    <div className="flex gap-5 bg-[#36b6ff] p-10">
-      <div className="grid h-[150px] w-1/2 p-4">
+    <div className="flex gap-5 bg-[#36b6ff] px-24 py-10">
+      <div className="grid h-[150px] w-1/2 px-6 pb-6 pt-2">
         <h1 className="text-center text-4xl font-extrabold md:text-5xl xl:text-6xl">
           Our Services
         </h1>
-        <p className="mt-5 h-[200px] text-xl md:top-0 md:text-left">
+        <p className="mt-5 h-[200px] text-xl md:top-0 md:text-center">
           We understand that each position is unique, and we will tailor our
           approach to each individual search. With a strong ever growing network
           of candidates, we work closely with our clients to understand their

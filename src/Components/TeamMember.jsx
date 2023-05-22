@@ -2,8 +2,8 @@ import React from "react";
 
 const TeamMember = ({ member }) => {
   return (
-    <div className="w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
-      <div className="flex flex-col items-center pb-5">
+    <div className="w-full max-w-sm rounded-lg border border-gray-200 bg-white py-6 shadow dark:border-gray-700 dark:bg-gray-800">
+      <div className="flex flex-col items-center p-5">
         <img
           className="mb-10 mt-10 h-[150px] w-[150px] rounded-full  border-2 border-[#36b6ff] shadow-lg"
           src={member.image}
@@ -15,7 +15,7 @@ const TeamMember = ({ member }) => {
         <span className="text-md text-gray-500 dark:text-gray-400">
           {member.title}
         </span>
-        <div className="py-auto my-3 flex h-[50px] items-center space-x-3 px-2 hover:rounded-md hover:bg-[#36b6ff50]">
+        <div className="py-auto my-3 flex h-[50px] items-center space-x-3 px-2 hover:rounded hover:bg-[#36b6ff50]">
           <a href={member.linkedin} target="_blank">
             <img
               src="https://icongr.am/devicon/linkedin-original-wordmark.svg?size=128&color=currentColor"

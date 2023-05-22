@@ -5,7 +5,7 @@ import Industries from "./Industries";
 const Hero = () => {
   return (
     <>
-      <div className="bg-white pb-5 dark:bg-gray-900">
+      <div className="bg-white pb-10 dark:bg-gray-900">
         <div className="mx-auto mt-10  flex max-w-screen-xl px-4 py-1">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
@@ -31,7 +31,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="lg:mt-2 lg:flex">
+          <div className=" lg:flex">
             <img className="rounded-xl" src="/hero.jpeg" alt="mockup" />
           </div>
         </div>

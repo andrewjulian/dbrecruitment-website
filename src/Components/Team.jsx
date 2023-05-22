@@ -28,12 +28,12 @@ const Team = () => {
   });
 
   return (
-    <div className=" bg-gray-300">
-      <div className="mx-auto  grid max-w-screen-xl px-4 py-10">
+    <div className=" bg-gray-300 py-10">
+      <div className="mx-auto  grid max-w-screen-xl px-4 ">
         <h1 className="mb-2 text-center text-4xl font-extrabold md:text-5xl xl:text-6xl">
           Our Team
         </h1>
-        <div className="mt-10 flex justify-center gap-4">{team}</div>
+        <div className="mt-6 flex justify-center gap-4">{team}</div>
       </div>
     </div>
   );

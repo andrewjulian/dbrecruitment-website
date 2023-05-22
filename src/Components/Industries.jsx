@@ -32,7 +32,7 @@ const Industries = () => {
 
   return (
     <>
-      <div className="mx-auto max-w-screen-xl py-4">
+      <div className="mx-auto max-w-screen-xl py-5">
         <h3 className="mb-4 px-4 text-2xl">
           We are currently working with the following industries.
         </h3>
