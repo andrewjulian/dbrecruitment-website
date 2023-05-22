@@ -14,8 +14,8 @@ const Service = ({ title, content }) => {
   };
 
   return (
-    <div onClick={handleOpening} className="border border-indigo-400">
-      <div className="flex justify-between bg-indigo-300 p-4 text-white">
+    <div onClick={handleOpening} className="border border-black">
+      <div className="flex justify-between bg-white p-4 text-black">
         <h4 className="font-semibold">{title}</h4>
         {isOpened ? (
           <img
@@ -34,7 +34,7 @@ const Service = ({ title, content }) => {
       <div
         ref={contentElement}
         style={{ height }}
-        className="overflow-hidden bg-gray-200 transition-all duration-200"
+        className="overflow-hidden  bg-gray-200 transition-all duration-200"
       >
         <p className="p-4">{content}</p>
       </div>

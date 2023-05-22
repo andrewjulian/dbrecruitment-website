@@ -19,11 +19,15 @@ const Services = () => {
     },
   ];
   return (
-    <div className="container mx-auto">
-      <h1 className="w-full text-center">Services</h1>
-      {data.map((item, key) => (
-        <Service title={item.title} content={item.content} key={item.title} />
-      ))}
+    <div className="w-full bg-[#36b6ff] p-10">
+      <div className="container mx-auto">
+        <h1 className="mb-4 text-center text-4xl font-extrabold md:text-5xl xl:text-6xl">
+          Our Services
+        </h1>
+        {data.map((item, key) => (
+          <Service title={item.title} content={item.content} key={item.title} />
+        ))}
+      </div>
     </div>
   );
 };
