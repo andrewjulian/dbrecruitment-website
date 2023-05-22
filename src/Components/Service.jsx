@@ -34,7 +34,7 @@ const Service = ({ title, content }) => {
       <div
         ref={contentElement}
         style={{ height }}
-        className="overflow-hidden  bg-gray-200 transition-all duration-200"
+        className="overflow-hidden border-black bg-gray-200 transition-all duration-200"
       >
         <p className="p-4">{content}</p>
       </div>

@@ -30,12 +30,23 @@ const Services = () => {
     },
   ];
   return (
-    <div className=" bg-[#36b6ff] p-10">
-      <h1 className="mb-6 text-center text-4xl font-extrabold md:text-5xl xl:text-6xl">
-        Our Services
-      </h1>
-      <div className="flex justify-center gap-4">
-        <div className="container mx-auto w-1/2">
+    <div className="flex gap-5 bg-[#36b6ff] p-10">
+      <div className="grid h-[150px] w-1/2 p-4">
+        <h1 className="text-center text-4xl font-extrabold md:text-5xl xl:text-6xl">
+          Our Services
+        </h1>
+        <p className="mt-5 h-[200px] text-xl md:top-0 md:text-left">
+          We understand that each position is unique, and we will tailor our
+          approach to each individual search. With a strong ever growing network
+          of candidates, we work closely with our clients to understand their
+          needs, and we use our expertise to find the candidates who are the
+          best fit. We are committed to providing our clients with high-quality
+          service at a fair price.
+        </p>
+      </div>
+
+      <div className="w-1/2">
+        <div className="container mx-auto">
           {data.map((item, key) => (
             <Service
               title={item.title}
