@@ -1,5 +1,7 @@
 import React from "react";
 
+import Industries from "./Industries";
+
 const Hero = () => {
   return (
     <>
@@ -31,6 +33,7 @@ const Hero = () => {
             <img className="rounded-xl" src="/hero.jpeg" alt="mockup" />
           </div>
         </div>
+        <Industries />
       </div>
     </>
   );
