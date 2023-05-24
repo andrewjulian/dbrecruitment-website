@@ -3,7 +3,7 @@ import React from "react";
 const AboutUsPage = () => {
   return (
     <div>
-      <div className="mx-40 flex items-center justify-center">
+      <div className="mx-24 flex items-center justify-center gap-10 px-10">
         <div className=" bg-white py-12">
           <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>
           <p className="mb-6 text-xl text-gray-800">
@@ -29,7 +29,7 @@ const AboutUsPage = () => {
         </div>
         <div className="container mx-auto">
           <img
-            className="h-auto w-[400px]"
+            className="h-auto w-[400px] py-12"
             src="/dblogo-bluecircle.png"
             alt="DB Recruiting Logo"
           />
