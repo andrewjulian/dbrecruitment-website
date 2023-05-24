@@ -19,6 +19,7 @@ function App() {
         <Navbar link={Link} />
         <Hero />
         <Services />
+        <About />
         <Team />
 
         <Routes>

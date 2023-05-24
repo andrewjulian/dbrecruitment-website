@@ -7,7 +7,7 @@ const AboutUsPage = () => {
         <div className=" bg-white py-12">
           <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>
           <p className="mb-6 text-xl text-gray-800">
-            Finding the Best Talent and Providing the Best Services{" "}
+            Our goal is to source the Best Talent and provide the Best Services
           </p>
           <p className="mb-8 text-lg text-gray-600">
             DB Recruiting Group was founded in 2022 by David Vacianna and Ben
