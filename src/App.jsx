@@ -17,8 +17,8 @@ function App() {
       <div className="align-center justify-center">
         <Navbar link={Link} />
         <Hero />
-        <Services />
         <About />
+        <Services />
         <Team />
 
         <Routes>

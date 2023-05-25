@@ -2,13 +2,10 @@ import React from "react";
 
 const AboutUsPage = () => {
   return (
-    <div>
-      <div className="mx-24 flex items-center justify-center gap-10 px-10">
-        <div className=" bg-white py-12">
+    <div className="mb-10 flex items-center justify-center">
+      <div className="mx-auto mt-10  flex max-w-screen-xl px-4 py-1">
+        <div className="mt-5">
           <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>
-          <p className="mb-6 text-xl text-gray-800">
-            Our goal is to source the Best Talent and provide the Best Services
-          </p>
           <p className="mb-8 text-lg text-gray-600">
             DB Recruiting Group was founded in 2022 by David Vacianna and Ben
             Puschett to focus on providing recruiting services to companies in
@@ -16,7 +13,7 @@ const AboutUsPage = () => {
             lead recruiter, DB Recruiting is uniquely equipped to provide
             customized recruiting services to clients.
           </p>
-          <p className=" text-xl text-gray-800">What sets us apart?</p>
+          <p className="text-xl text-gray-800">What sets us apart?</p>
 
           <p className="text-lg text-gray-700">
             <li> Demonstrated success as top billers in previous roles</li>
@@ -27,9 +24,9 @@ const AboutUsPage = () => {
             <li> Experience in recruitment across multiple tech industries</li>
           </p>
         </div>
-        <div className="container mx-auto">
+        <div className="container flex justify-center ">
           <img
-            className="h-auto w-[400px] py-12"
+            className="ml-10 h-auto w-[350px] "
             src="/dblogo-bluecircle.png"
             alt="DB Recruiting Logo"
           />
