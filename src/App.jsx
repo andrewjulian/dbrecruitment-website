@@ -1,9 +1,8 @@
 import { useState } from "react";
-import circleLogo from "/dblogo-whitecircle.png";
-import Navbar from "./Components/Navbar";
 import "./App.css";
 import { Routes, Route, Navigate, Link } from "react-router-dom";
 
+import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Services from "./Components/Services";
