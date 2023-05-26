@@ -22,20 +22,6 @@ const Hero = () => {
               connecting exceptional talent with companies looking for top tier
               candidates.
             </p>
-            {/* <div className="mt-3">
-              <a
-                href="#"
-                className="inline-flex items-center justify-center rounded-xl bg-[#36b6ff] px-5 py-3 text-center text-base font-medium text-white transition-colors duration-300 hover:bg-blue-700"
-              >
-                Meet The Team
-              </a>
-              <a
-                href="#"
-                className="mx-3 inline-flex items-center justify-center rounded-xl bg-[#36b6ff] px-5 py-3 text-center text-base font-medium text-white transition-colors duration-300 hover:bg-blue-700"
-              >
-                Contact Us
-              </a>
-            </div> */}
           </div>
         </div>
       </div>
