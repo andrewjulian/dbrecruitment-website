@@ -40,9 +40,9 @@ const Industries = () => {
   return (
     <div className="w-full bg-gray-300">
       <div className="mx-auto max-w-screen-xl py-10">
-        <h3 className="mb-5 px-4 text-2xl">
-          We are currently working with the following industries.
-        </h3>
+        <h1 className="mb-6 pl-3 text-3xl font-bold">
+          We are currently working with the following industries:
+        </h1>
         <div>
           <div className="grid grid-cols-2 gap-4 px-4">{displayIndustries}</div>
         </div>
