@@ -30,7 +30,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="my-10 grid w-full">
+    <div className="grid w-full bg-[#36b6ff80] py-10">
       <div className=" mx-auto mb-5  w-3/4">
         <h1 className="mb-2 text-center text-4xl font-extrabold md:text-5xl xl:text-6xl">
           Our Services
