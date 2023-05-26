@@ -2,6 +2,7 @@ import React from "react";
 import { HiLockClosed } from "react-icons/hi";
 import { BsFillPersonVcardFill } from "react-icons/bs";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { FaShieldAlt } from "react-icons/fa";
 import Industry from "./Industry";
 
 const industryList = [
@@ -23,6 +24,12 @@ const industryList = [
       "DBRG supports burgeoning tech organizations that seek to build their Data & Software Teams.",
     icons: <HiOutlineDesktopComputer className="my-auto" size="25" />,
   },
+  {
+    title: "Defense",
+    description:
+      "DBRG connects vetted and clearance approved workers with private and federal defense companies.",
+    icons: <FaShieldAlt className="my-auto" size="25" />,
+  },
 ];
 
 const Industries = () => {
@@ -31,16 +38,16 @@ const Industries = () => {
   ));
 
   return (
-    <>
-      <div className="mx-auto max-w-screen-xl py-5">
-        <h3 className="mb-4 px-4 text-2xl">
+    <div className="w-full bg-gray-300">
+      <div className="mx-auto max-w-screen-xl py-10">
+        <h3 className="mb-5 px-4 text-2xl">
           We are currently working with the following industries.
         </h3>
-        <div className="bg-white dark:bg-gray-900">
-          <div className="grid grid-cols-3 gap-4 px-4">{displayIndustries}</div>
+        <div>
+          <div className="grid grid-cols-2 gap-4 px-4">{displayIndustries}</div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

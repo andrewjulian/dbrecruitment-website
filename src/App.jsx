@@ -10,6 +10,7 @@ import Team from "./Components/Team";
 import Testimonials from "./Components/Testimonials";
 import Contact from "./Components/Contact";
 import Temp from "./Components/Temp";
+import Industries from "./Components/Industries";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
         <Navbar link={Link} />
         <Hero />
         <About />
+        <Industries />
         <Services />
+
         <Team />
 
         <Routes>
