@@ -33,7 +33,13 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="mx-auto my-10 max-w-xl">
+    <div className="mx-auto mb-10 mt-16 max-w-xl">
+      <h1 className="text-4x  mb-5 text-center font-extrabold md:text-5xl xl:text-6xl">
+        Testimonials
+      </h1>
+      <h1 className=" pl-3 text-center text-2xl ">
+        See what our clients have to say about us!
+      </h1>
       <div className="mb-4 flex items-center justify-between">
         <button
           className="rounded-full bg-gray-200 p-2 hover:bg-gray-300"
@@ -41,7 +47,7 @@ const Testimonials = () => {
         >
           <TbCircleChevronLeft className="h-5 w-5" />
         </button>
-        <section className="bg-white dark:bg-gray-900">
+        <section className=" bg-white dark:bg-gray-900">
           <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-6 lg:py-16">
             <figure className="mx-auto max-w-screen-md">
               <svg
