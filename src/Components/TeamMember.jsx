@@ -2,7 +2,7 @@ import React from "react";
 
 const TeamMember = ({ member }) => {
   return (
-    <div className="w-full max-w-sm rounded-lg border border-gray-200 bg-white py-6 shadow dark:border-gray-700 dark:bg-gray-800">
+    <div className="shadow-[[#36b6ff] w-full max-w-sm rounded-lg border border-gray-200 bg-white py-3 drop-shadow-lg">
       <div className="flex flex-col items-center p-5">
         <img
           className="mb-10 mt-10 h-[150px] w-[150px] rounded-full  border-2 border-[#36b6ff] shadow-lg"
