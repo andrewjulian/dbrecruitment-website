@@ -45,7 +45,7 @@ const Testimonials = () => {
           <TbCircleChevronLeft className="h-5 w-5" />
         </button>
         <section className=" bg-white ">
-          <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-6 lg:py-16">
+          <div className="mx-auto max-w-screen-xl px-4 py-6 text-center lg:px-6 lg:py-16">
             <figure className="mx-auto max-w-screen-md">
               <svg
                 className="mx-auto mb-3 h-12 text-gray-400 dark:text-gray-600"
