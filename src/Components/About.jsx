@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUsPage = () => {
   return (
-    <div className="mb-10 flex items-center justify-center">
+    <div id="about" className="mb-10 flex items-center justify-center">
       <div className="mx-auto mt-10  flex max-w-screen-xl px-4 py-1">
         <div className="mt-5">
           <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>

@@ -33,7 +33,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="mx-auto mb-5 mt-16 max-w-2xl">
+    <div id="testimonials" className="mx-auto mb-5 mt-16 max-w-2xl">
       <h1 className=" pl-3 text-center text-3xl font-bold ">
         See what our clients have to say about us!
       </h1>

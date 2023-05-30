@@ -30,7 +30,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="grid w-full bg-[#36b6ff] py-10">
+    <div id="services" className="grid w-full bg-[#36b6ff] py-10">
       <div className="mx-auto w-[60%]">
         <h1 className="text-4x  mb-5 text-center font-extrabold md:text-5xl xl:text-6xl">
           Our Services
