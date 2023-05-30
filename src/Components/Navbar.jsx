@@ -1,85 +1,173 @@
-import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import React, { useState } from "react";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
-  const location = useLocation();
-  const [path, setPath] = useState("/");
+  const [nav, setNav] = useState(false);
 
-  useEffect(() => {
-    setPath(location.pathname);
-  }, [location]);
+  const handleNav = () => {
+    setNav(!nav);
+  };
 
   return (
-    <>
-      <div className="flex justify-between bg-[#36b6ff]">
-        <div className="flex justify-center p-5">
-          <img
-            src="/dblogo-whitecircle.png"
-            className="h-[50px] w-auto"
-            alt="logo"
-          />
-          <h1 className="text-white text-2xl ml-4 my-auto">
-            DB Recruitment Group
-          </h1>
-        </div>
+    <div
+      id="navbar"
+      className="sticky top-0 z-30 mx-auto flex h-24 items-center justify-between  bg-[#36b6ff] px-4 text-white  sm:px-10 "
+    >
+      <div className="flex text-center">
+        <Link
+          to="navbar"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="flex cursor-pointer items-center "
+        >
+          <div className="flex justify-center p-5">
+            <img
+              src="/dblogo-whitecircle.png"
+              className="h-[50px] w-auto"
+              alt="logo"
+            />
+            <h1 className="my-auto ml-4 text-2xl text-white">
+              DB Recruitment Group
+            </h1>
+          </div>
+        </Link>
+      </div>
 
-        <div className="flex justify-center my-auto mr-5 ">
+      <ul className="hidden md:flex">
+        <li className="p-4">
           <Link
-            to="/"
-            className={`text-white  hover:border-b hover:border-[#6b6ff] px-3 py-2 text-lg font-medium ${
-              path === "/" ? "text-black hover:text-black" : "text-white"
-            }`}
+            to="hero"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={handleNav}
+            className="cursor-pointer hover:text-[#0097b2]"
           >
             Home
           </Link>
+        </li>
+        <li className="p-4">
           <Link
-            to="/about"
-            className={`text-white  hover:border-b hover:border-[#6b6ff] px-3 py-2 text-lg font-medium ${
-              path === "/about" ? "text-black hover:text-black" : "text-white"
-            }`}
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={handleNav}
+            className="cursor-pointer hover:text-[#0097b2]"
           >
             About
           </Link>
+        </li>
+        <li className="p-4">
           <Link
-            to="/services"
-            /*  className="text-white hover:text-black hover:border-b hover:border-[#6b6ff] px-3 py-2  text-lg font-medium" */
-            className={`text-white hover:border-b hover:border-[#6b6ff] px-3 py-2 text-lg font-medium ${
-              path === "/services"
-                ? "text-black hover:text-black"
-                : "text-white"
-            }`}
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={handleNav}
+            className="cursor-pointer hover:text-[#0097b2]"
           >
-            Services
+            Projects
           </Link>
+        </li>
+        <li className="p-4">
           <Link
-            to="/team"
-            className={`text-white  hover:border-b hover:border-[#6b6ff] px-3 py-2 text-lg font-medium ${
-              path === "/team" ? "text-black hover:text-black" : "text-white"
-            }`}
-          >
-            Team
-          </Link>
-          <Link
-            to="/testimonials"
-            className={`text-white  hover:border-b hover:border-[#6b6ff] px-3 py-2 text-lg font-medium ${
-              path === "/testimonials"
-                ? "text-black hover:text-black"
-                : "text-white"
-            }`}
-          >
-            Testimonials
-          </Link>
-          <Link
-            to="/contact"
-            className={`text-white  hover:border-b hover:border-[#6b6ff] px-3 py-2 text-lg font-medium ${
-              path === "/contact" ? "text-black hover:text-black" : "text-white"
-            }`}
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={handleNav}
+            className="cursor-pointer hover:text-[#0097b2]"
           >
             Contact
           </Link>
-        </div>
+        </li>
+      </ul>
+
+      <div onClick={handleNav} className="m-2 block md:hidden">
+        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
-    </>
+
+      <div
+        className={
+          nav
+            ? "fixed left-0 top-[0px] z-10 h-full w-[75%] bg-black text-white duration-500  ease-in-out md:hidden"
+            : "fixed left-[-100%]"
+        }
+      >
+        <ul>
+          <li className="flex border-b border-[#0097b2] p-4 pt-8">
+            <img
+              src="/dblogo-whitecircle.png"
+              className="h-[50px] w-auto"
+              alt="logo"
+            />
+            <h1 className="my-auto ml-4 text-2xl text-white">
+              DB Recruitment Group
+            </h1>
+          </li>
+          <li className="border-b border-[#0097b2] p-4">
+            <Link
+              to="hero"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={handleNav}
+              className="cursor-pointer"
+            >
+              Home
+            </Link>
+          </li>
+          <li className="border-b border-[#0097b2] p-4">
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={handleNav}
+              className="cursor-pointer"
+            >
+              About
+            </Link>
+          </li>
+          <li className="border-b border-[#0097b2] p-4">
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={handleNav}
+              className="cursor-pointer"
+            >
+              Projects
+            </Link>
+          </li>
+          <li className="p-4 ">
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={handleNav}
+              className="cursor-pointer"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 };
 
