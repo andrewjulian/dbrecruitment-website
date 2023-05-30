@@ -7,6 +7,7 @@ const Hero = () => {
       className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center"
     >
       <div
+        id="hero"
         className="absolute left-0 top-0 h-full w-full opacity-[.15] "
         style={{
           backgroundImage: "url('/hero.jpeg')",

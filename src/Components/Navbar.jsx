@@ -42,10 +42,10 @@ const Navbar = () => {
             to="hero"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-100}
             duration={500}
             onClick={handleNav}
-            className="cursor-pointer hover:text-[#0097b2]"
+            className="cursor-pointer hover:text-black"
           >
             Home
           </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
             offset={-100}
             duration={500}
             onClick={handleNav}
-            className="cursor-pointer hover:text-[#0097b2]"
+            className="cursor-pointer hover:text-black"
           >
             About
           </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
             offset={-100}
             duration={500}
             onClick={handleNav}
-            className="cursor-pointer hover:text-[#0097b2]"
+            className="cursor-pointer hover:text-black"
           >
             Projects
           </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
             offset={-100}
             duration={500}
             onClick={handleNav}
-            className="cursor-pointer hover:text-[#0097b2]"
+            className="cursor-pointer hover:text-black"
           >
             Contact
           </Link>
