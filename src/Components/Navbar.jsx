@@ -55,7 +55,7 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-90}
             duration={500}
             onClick={handleNav}
             className="cursor-pointer hover:text-black"
@@ -131,7 +131,7 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={0}
               duration={500}
               onClick={handleNav}
               className="cursor-pointer"

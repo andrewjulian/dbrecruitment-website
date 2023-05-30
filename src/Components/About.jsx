@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutUsPage = () => {
   return (
-    <div id="about" className="mb-10 flex items-center justify-center">
-      <div className="mx-auto mt-10  flex max-w-screen-xl px-4 py-1">
+    <div id="about" className=" flex items-center justify-center">
+      <div className="mx-auto mt-6  flex max-w-screen-xl px-4 py-1">
         <div className="mt-5">
           <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>
           <p className="mb-8 text-lg text-gray-600">
@@ -13,15 +13,15 @@ const AboutUsPage = () => {
             lead recruiter, DB Recruiting is uniquely equipped to provide
             customized recruiting services to clients.
           </p>
-          <p className="text-xl text-gray-800">What sets us apart?</p>
+          <p className="mb-8 text-lg text-gray-600">
+            We are a team of skilled recruiters with a proven track record of
+            success as top billers in previous roles. Through the use of RPO
+            models, we are able to provide a more efficient and effective hiring
+            process for our clients across a variety of industries.
+          </p>
 
-          <p className="text-lg text-gray-700">
-            <li> Demonstrated success as top billers in previous roles</li>
-            <li>
-              Effective implementation of RPO models for improved hiring
-              processes
-            </li>
-            <li> Experience in recruitment across multiple tech industries</li>
+          <p className="mt-6 text-xl font-bold">
+            We are currently working with the following industries:
           </p>
         </div>
         <div className="container flex justify-center ">

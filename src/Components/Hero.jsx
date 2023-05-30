@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center"
+      className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-16 text-center"
     >
       <div
         id="hero"
