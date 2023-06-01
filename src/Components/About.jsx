@@ -3,7 +3,7 @@ import React from "react";
 const AboutUsPage = () => {
   return (
     <div id="about" className="flex flex-col items-center justify-center">
-      <div className="mx-auto mt-6 max-w-screen-xl px-4 py-1">
+      <div className="mx-auto mt-6 grid max-w-screen-xl px-4 py-1 md:flex">
         <div className="mt-5">
           <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>
           <p className="mb-8 text-lg text-gray-600">
@@ -20,24 +20,19 @@ const AboutUsPage = () => {
             process for our clients across a variety of industries.
           </p>
 
-          <div className="mt-6 flex justify-center sm:hidden">
-            <img
-              className="h-auto w-[200px] sm:ml-10 sm:w-[350px] "
-              src="/dblogo-bluecircle.png"
-              alt="DB Recruiting Logo"
-            />
-          </div>
-
-          <p className="mt-6 text-xl font-bold ">
+          <p className="mt-6 hidden text-xl font-bold md:flex">
             We are currently working with the following industries:
           </p>
         </div>
-        <div className="mt-6  hidden justify-center sm:flex sm:flex-col">
+        <div className="container grid justify-center md:flex ">
           <img
-            className="ml-10 h-auto w-[350px] "
+            className="mx-auto h-auto w-[350px] md:ml-10 "
             src="/dblogo-bluecircle.png"
             alt="DB Recruiting Logo"
           />
+          <p className="mt-6 hidden text-xl font-bold sm:flex">
+            We are currently working with the following industries:
+          </p>
         </div>
       </div>
     </div>
