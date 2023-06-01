@@ -125,22 +125,22 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-[0px] z-10 h-full w-[75%] bg-black text-white duration-500  ease-in-out md:hidden"
+            ? "fixed left-0 top-[0px] z-10 h-full w-[75%] bg-white text-black duration-500  ease-in-out md:hidden"
             : "fixed left-[-100%]"
         }
       >
         <ul>
-          <li className="flex border-b border-[#0097b2] p-4 pt-8">
+          <li className="flex border-b border-[#36b6ff] p-4 pt-8">
             <img
               src="/dblogo-whitecircle.png"
               className="h-[50px] w-auto"
               alt="logo"
             />
-            <h1 className="my-auto ml-4 text-2xl text-white">
+            <h1 className="my-auto ml-4 text-2xl text-[#36b6ff]">
               DB Recruitment Group
             </h1>
           </li>
-          <li className="border-b border-[#0097b2] p-4">
+          <li className="border-b border-[#36b6ff] p-4">
             <Link
               to="hero"
               spy={true}
@@ -153,7 +153,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className="border-b border-[#0097b2] p-4">
+          <li className="border-b border-[#36b6ff] p-4">
             <Link
               to="about"
               spy={true}
@@ -166,7 +166,7 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li className="border-b border-[#0097b2] p-4">
+          <li className="border-b border-[#36b6ff] p-4">
             <Link
               to="services"
               spy={true}
@@ -179,7 +179,7 @@ const Navbar = () => {
               Services
             </Link>
           </li>
-          <li className="border-b border-[#0097b2] p-4">
+          <li className="border-b border-[#36b6ff] p-4">
             <Link
               to="testimonials"
               spy={true}
@@ -192,7 +192,7 @@ const Navbar = () => {
               Testimonials
             </Link>
           </li>
-          <li className="border-b border-[#0097b2] p-4">
+          <li className="border-b border-[#36b6ff] p-4">
             <Link
               to="team"
               spy={true}
@@ -206,7 +206,7 @@ const Navbar = () => {
             </Link>
           </li>
 
-          <li className="border-b border-[#0097b2] p-4">
+          <li className="border-b border-[#36b6ff] p-4">
             <Link
               to="contact"
               spy={true}
