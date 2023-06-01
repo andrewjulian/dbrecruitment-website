@@ -32,9 +32,7 @@ const Services = () => {
   return (
     <div id="services" className="grid w-full bg-gray-300 py-10">
       <div className="mx-auto w-[60%]">
-        <h1 className="text-4x  mb-5 text-center font-extrabold md:text-5xl xl:text-6xl">
-          Our Services
-        </h1>
+        <h1 className="mb-6 text-4xl font-bold">Our Services</h1>
         <div className="container mx-auto">
           {data.map((item, key) => (
             <Service
