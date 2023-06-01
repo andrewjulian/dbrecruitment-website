@@ -136,11 +136,11 @@ const Navbar = () => {
               className="h-[50px] w-auto"
               alt="logo"
             />
-            <h1 className="my-auto ml-4 text-2xl text-[#36b6ff]">
+            <h1 className="my-auto ml-4 text-xl text-[#36b6ff] md:text-2xl">
               DB Recruitment Group
             </h1>
           </li>
-          <li className="border-b border-[#36b6ff] p-4">
+          <li className="border-b border-[#36b6ff] py-4 pl-5">
             <Link
               to="hero"
               spy={true}
@@ -153,7 +153,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className="border-b border-[#36b6ff] p-4">
+          <li className="border-b border-[#36b6ff] py-4 pl-5">
             <Link
               to="about"
               spy={true}
@@ -166,7 +166,7 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li className="border-b border-[#36b6ff] p-4">
+          <li className="border-b border-[#36b6ff] py-4 pl-5">
             <Link
               to="services"
               spy={true}
@@ -179,7 +179,7 @@ const Navbar = () => {
               Services
             </Link>
           </li>
-          <li className="border-b border-[#36b6ff] p-4">
+          <li className="border-b border-[#36b6ff] py-4 pl-5">
             <Link
               to="testimonials"
               spy={true}
@@ -192,7 +192,7 @@ const Navbar = () => {
               Testimonials
             </Link>
           </li>
-          <li className="border-b border-[#36b6ff] p-4">
+          <li className="border-b border-[#36b6ff] py-4 pl-5">
             <Link
               to="team"
               spy={true}
@@ -206,7 +206,7 @@ const Navbar = () => {
             </Link>
           </li>
 
-          <li className="border-b border-[#36b6ff] p-4">
+          <li className="border-b border-[#36b6ff] py-4 pl-5">
             <Link
               to="contact"
               spy={true}

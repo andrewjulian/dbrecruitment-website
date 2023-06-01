@@ -2,8 +2,11 @@ import React from "react";
 
 const AboutUsPage = () => {
   return (
-    <div id="about" className="flex flex-col items-center justify-center">
-      <div className="mx-auto mt-6 grid max-w-screen-xl px-4 py-1 md:flex">
+    <div
+      id="about"
+      className="mx-auto flex flex-col items-center justify-center"
+    >
+      <div className="mt-6 grid max-w-screen-xl px-10 py-1 md:flex md:px-4">
         <div className="mt-5">
           <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>
           <p className="mb-8 text-lg text-gray-600">
@@ -30,7 +33,7 @@ const AboutUsPage = () => {
             src="/dblogo-bluecircle.png"
             alt="DB Recruiting Logo"
           />
-          <p className="mt-6 hidden text-xl font-bold sm:flex">
+          <p className="mt-6 flex text-xl font-bold md:hidden">
             We are currently working with the following industries:
           </p>
         </div>
