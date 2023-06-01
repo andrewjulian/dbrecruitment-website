@@ -33,8 +33,8 @@ const Testimonials = () => {
   };
 
   return (
-    <div id="testimonials" className="mx-auto mb-5 mt-16 max-w-2xl">
-      <h1 className=" pl-3 text-center text-3xl font-bold ">
+    <div id="testimonials" className="mx-10 mb-5 mt-16 max-w-2xl">
+      <h1 className=" text-center text-3xl font-bold sm:pl-3 ">
         See what our clients have to say about us!
       </h1>
       <div className="mb-4 flex items-center justify-between">
