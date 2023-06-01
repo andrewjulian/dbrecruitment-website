@@ -16,10 +16,10 @@ const Navbar = () => {
     >
       <div className="flex text-center">
         <Link
-          to="navbar"
+          to="hero"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-100}
           duration={500}
           className="flex cursor-pointer items-center "
         >
