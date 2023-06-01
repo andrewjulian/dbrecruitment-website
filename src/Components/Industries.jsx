@@ -41,7 +41,9 @@ const Industries = () => {
     <div className="mb-10 mt-4 w-full bg-white">
       <div className="mx-auto max-w-screen-xl">
         <div>
-          <div className="grid grid-cols-2 gap-4 px-4">{displayIndustries}</div>
+          <div className="grid grid-cols-1  gap-4 px-4 sm:grid-cols-2">
+            {displayIndustries}
+          </div>
         </div>
       </div>
     </div>

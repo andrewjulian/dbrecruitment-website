@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutUsPage = () => {
   return (
-    <div id="about" className=" flex items-center justify-center">
-      <div className="mx-auto mt-6  flex max-w-screen-xl px-4 py-1">
+    <div id="about" className="flex flex-col items-center justify-center">
+      <div className="mx-auto mt-6 max-w-screen-xl px-4 py-1">
         <div className="mt-5">
           <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>
           <p className="mb-8 text-lg text-gray-600">
@@ -24,7 +24,7 @@ const AboutUsPage = () => {
             We are currently working with the following industries:
           </p>
         </div>
-        <div className="container flex justify-center ">
+        <div className="mt-6 flex justify-center sm:flex-col">
           <img
             className="ml-10 h-auto w-[350px] "
             src="/dblogo-bluecircle.png"
