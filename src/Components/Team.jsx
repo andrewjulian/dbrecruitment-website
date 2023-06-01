@@ -33,7 +33,7 @@ const Team = () => {
         <h1 className="mb-2 text-center text-4xl font-extrabold md:text-5xl xl:text-6xl">
           Our Team
         </h1>
-        <div className="mt-6 flex justify-center gap-4">{team}</div>
+        <div className="mt-6 grid justify-center gap-4 sm:flex">{team}</div>
       </div>
     </div>
   );
