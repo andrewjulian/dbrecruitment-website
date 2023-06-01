@@ -148,7 +148,7 @@ const Navbar = () => {
               offset={-100}
               duration={500}
               onClick={handleNav}
-              className="cursor-pointer"
+              className="cursor-pointer hover:text-black"
             >
               Home
             </Link>
@@ -168,26 +168,53 @@ const Navbar = () => {
           </li>
           <li className="border-b border-[#0097b2] p-4">
             <Link
-              to="projects"
+              to="services"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-90}
               duration={500}
               onClick={handleNav}
-              className="cursor-pointer"
+              className="cursor-pointer hover:text-black"
             >
-              Projects
+              Services
             </Link>
           </li>
-          <li className="p-4 ">
+          <li className="border-b border-[#0097b2] p-4">
+            <Link
+              to="testimonials"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={500}
+              onClick={handleNav}
+              className="cursor-pointer hover:text-black"
+            >
+              Testimonials
+            </Link>
+          </li>
+          <li className="border-b border-[#0097b2] p-4">
+            <Link
+              to="team"
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={500}
+              onClick={handleNav}
+              className="cursor-pointer hover:text-black"
+            >
+              Team
+            </Link>
+          </li>
+
+          <li className="border-b border-[#0097b2] p-4">
             <Link
               to="contact"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-90}
               duration={500}
               onClick={handleNav}
-              className="cursor-pointer"
+              className="cursor-pointer hover:text-black"
             >
               Contact
             </Link>
