@@ -20,11 +20,19 @@ const AboutUsPage = () => {
             process for our clients across a variety of industries.
           </p>
 
-          <p className="mt-6 text-xl font-bold">
+          <div className="mt-6 flex justify-center sm:hidden">
+            <img
+              className="h-auto w-[200px] sm:ml-10 sm:w-[350px] "
+              src="/dblogo-bluecircle.png"
+              alt="DB Recruiting Logo"
+            />
+          </div>
+
+          <p className="mt-6 text-xl font-bold ">
             We are currently working with the following industries:
           </p>
         </div>
-        <div className="mt-6 flex justify-center sm:flex-col">
+        <div className="mt-6  hidden justify-center sm:flex sm:flex-col">
           <img
             className="ml-10 h-auto w-[350px] "
             src="/dblogo-bluecircle.png"
