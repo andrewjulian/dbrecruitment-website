@@ -18,11 +18,10 @@ function App() {
         <Navbar link={Link} />
         <Hero />
         <About />
-        <Industries />
         <Services />
-        <Testimonials />
+        <Industries />
         <Team />
-
+        <Testimonials />
         <Contact />
         <Footer />
       </div>

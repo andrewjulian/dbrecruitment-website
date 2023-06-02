@@ -43,16 +43,6 @@ const Services = () => {
           ))}
         </div>
       </div>
-      <div className=" mx-auto my-5  w-3/4">
-        <p className=" h-auto text-xl  md:top-0 md:text-center">
-          We understand that each position is unique, and we will tailor our
-          approach to each individual search. With a strong ever growing network
-          of candidates, we work closely with our clients to understand their
-          needs, and we use our expertise to find the candidates who are the
-          best fit. We are committed to providing our clients with high-quality
-          service at a fair price.
-        </p>
-      </div>
     </div>
   );
 };

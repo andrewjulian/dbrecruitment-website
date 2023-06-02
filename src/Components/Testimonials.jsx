@@ -33,11 +33,11 @@ const Testimonials = () => {
   };
 
   return (
-    <div id="testimonials" className="mx-10 mb-5 mt-16 max-w-2xl sm:mx-auto">
+    <div id="testimonials" className="mx-10  mt-16 max-w-2xl sm:mx-auto">
       <h1 className=" text-center text-3xl font-bold sm:pl-3 ">
         See what our clients have to say about us!
       </h1>
-      <div className="mb-4 flex items-center justify-between">
+      <div className=" flex items-center justify-between">
         <button
           className="rounded-full bg-gray-200 p-2 hover:bg-gray-300"
           onClick={prevSlide}

@@ -22,20 +22,13 @@ const AboutUsPage = () => {
             models, we are able to provide a more efficient and effective hiring
             process for our clients across a variety of industries.
           </p>
-
-          <p className="mt-6 hidden text-xl font-bold md:flex">
-            We are currently working with the following industries:
-          </p>
         </div>
         <div className="container grid justify-center md:flex ">
           <img
-            className="mx-auto h-auto w-[350px] md:ml-10 "
+            className="mx-auto mt-2 h-[300px] w-[300px] md:ml-16 "
             src="/dblogo-bluecircle.png"
             alt="DB Recruiting Logo"
           />
-          <p className="mt-6 flex text-xl font-bold md:hidden">
-            We are currently working with the following industries:
-          </p>
         </div>
       </div>
     </div>
