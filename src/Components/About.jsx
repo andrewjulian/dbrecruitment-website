@@ -53,7 +53,7 @@ const AboutUsPage = () => {
         </div>
         <div className="ml-10 w-[1000px]">
           <img
-            className="mt- mx-auto h-[250px] w-[250px] "
+            className="mx-auto mt-2 h-[250px] w-[250px] "
             src="/dblogo-bluecircle.png"
             alt="DB Recruiting Logo"
           />
