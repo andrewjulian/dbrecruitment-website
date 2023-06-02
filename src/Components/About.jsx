@@ -53,14 +53,14 @@ const AboutUsPage = () => {
         </div>
         <div className="ml-10 w-[1000px]">
           <img
-            className="mx-auto mt-5 h-[250px] w-[250px] "
+            className="mt- mx-auto h-[250px] w-[250px] "
             src="/dblogo-bluecircle.png"
             alt="DB Recruiting Logo"
           />
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-screen-xl justify-center py-1 text-center">
+      <div className="mx-auto flex max-w-screen-xl justify-center text-center">
         <div className="grid md:flex">{displayTraits}</div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Trait = ({ trait }) => {
   return (
-    <div className="m-5 flex items-center justify-center bg-white">
+    <div className="m-5 mt-0 flex items-center justify-center bg-white">
       <div className="group flex h-[300px] w-[280px] items-center justify-center">
         <div className="relative h-full w-full rounded-xl border-2 border-[#36b6ff] shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
           <div className="absolute inset-0 flex items-center justify-center text-xl">
