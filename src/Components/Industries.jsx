@@ -13,6 +13,12 @@ const industryList = [
     icons: <HiLockClosed className="my-auto" size="25" />,
   },
   {
+    title: "Defense",
+    description:
+      "DBRG connects vetted and clearance approved workers with private and federal defense companies.",
+    icons: <FaShieldAlt className="my-auto" size="25" />,
+  },
+  {
     title: "MSP",
     description:
       "DBRG works with both Partner and End-Users that need Managed Services Tech professionals.",
@@ -23,12 +29,6 @@ const industryList = [
     description:
       "DBRG supports burgeoning tech organizations that seek to build their Data & Software Teams.",
     icons: <HiOutlineDesktopComputer className="my-auto" size="25" />,
-  },
-  {
-    title: "Defense",
-    description:
-      "DBRG connects vetted and clearance approved workers with private and federal defense companies.",
-    icons: <FaShieldAlt className="my-auto" size="25" />,
   },
 ];
 
