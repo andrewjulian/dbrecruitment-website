@@ -51,7 +51,7 @@ const AboutUsPage = () => {
             process for our clients across a variety of industries.
           </p>
         </div>
-        <div className="ml-10 w-[1000px]">
+        <div className=" mb-4 w-[1000px] md:mb-0 md:ml-10">
           <img
             className="mx-auto mt-2 h-[250px] w-[250px] "
             src="/dblogo-bluecircle.png"
@@ -60,8 +60,8 @@ const AboutUsPage = () => {
         </div>
       </div>
 
-      <div className="mx-auto flex max-w-screen-xl justify-center text-center">
-        <div className="grid md:flex">{displayTraits}</div>
+      <div className="mx-auto max-w-screen-xl  justify-center text-center md:flex">
+        <div className="grid grid-cols-2 md:flex">{displayTraits}</div>
       </div>
     </div>
   );

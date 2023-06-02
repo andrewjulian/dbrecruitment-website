@@ -78,19 +78,6 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <Link
-            to="testimonials"
-            spy={true}
-            smooth={true}
-            offset={-150}
-            duration={500}
-            onClick={handleNav}
-            className="cursor-pointer hover:text-black"
-          >
-            Testimonials
-          </Link>
-        </li>
-        <li className="p-4">
-          <Link
             to="team"
             spy={true}
             smooth={true}
@@ -100,6 +87,19 @@ const Navbar = () => {
             className="cursor-pointer hover:text-black"
           >
             Team
+          </Link>
+        </li>
+        <li className="p-4">
+          <Link
+            to="testimonials"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+            onClick={handleNav}
+            className="cursor-pointer hover:text-black"
+          >
+            Testimonials
           </Link>
         </li>
 
@@ -181,19 +181,6 @@ const Navbar = () => {
           </li>
           <li className="border-b border-[#36b6ff] py-4 pl-5">
             <Link
-              to="testimonials"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={500}
-              onClick={handleNav}
-              className="cursor-pointer hover:text-black"
-            >
-              Testimonials
-            </Link>
-          </li>
-          <li className="border-b border-[#36b6ff] py-4 pl-5">
-            <Link
               to="team"
               spy={true}
               smooth={true}
@@ -203,6 +190,19 @@ const Navbar = () => {
               className="cursor-pointer hover:text-black"
             >
               Team
+            </Link>
+          </li>
+          <li className="border-b border-[#36b6ff] py-4 pl-5">
+            <Link
+              to="testimonials"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={500}
+              onClick={handleNav}
+              className="cursor-pointer hover:text-black"
+            >
+              Testimonials
             </Link>
           </li>
 
