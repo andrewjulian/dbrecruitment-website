@@ -32,9 +32,9 @@ const AboutUsPage = () => {
   return (
     <div
       id="about"
-      className="mx-auto flex flex-col items-center justify-center "
+      className="mx-auto mb-5 flex flex-col items-center justify-center "
     >
-      <div className=" mt-6 grid max-w-screen-xl   py-1 md:flex">
+      <div className=" mt-6 grid max-w-screen-xl  py-1 md:flex">
         <div className="md:ml-10 ">
           <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>
           <p className="mb-8 text-lg text-gray-600">
@@ -53,7 +53,7 @@ const AboutUsPage = () => {
         </div>
         <div className="ml-10 w-[1000px]">
           <img
-            className="mx-auto h-[300px] w-[300px] "
+            className="mx-auto mt-5 h-[250px] w-[250px] "
             src="/dblogo-bluecircle.png"
             alt="DB Recruiting Logo"
           />
