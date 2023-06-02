@@ -61,7 +61,9 @@ const AboutUsPage = () => {
       </div>
 
       <div className="mx-auto max-w-screen-xl  justify-center text-center md:flex">
-        <div className="grid grid-cols-2 md:flex">{displayTraits}</div>
+        <div className="grid flex-col sm:grid-cols-2 md:flex">
+          {displayTraits}
+        </div>
       </div>
     </div>
   );
