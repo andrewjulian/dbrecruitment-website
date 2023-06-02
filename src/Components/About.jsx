@@ -32,10 +32,10 @@ const AboutUsPage = () => {
   return (
     <div
       id="about"
-      className="mx-auto flex flex-col items-center justify-center"
+      className="mx-auto flex flex-col items-center justify-center "
     >
-      <div className="mt-6 grid max-w-screen-xl px-10 py-1 md:flex md:px-4">
-        <div className="mt-5">
+      <div className=" mt-6 grid max-w-screen-xl   py-1 md:flex">
+        <div className="md:ml-10 ">
           <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>
           <p className="mb-8 text-lg text-gray-600">
             DB Recruiting Group was founded in 2022 by David Vacianna and Ben
@@ -51,16 +51,17 @@ const AboutUsPage = () => {
             process for our clients across a variety of industries.
           </p>
         </div>
-        <div className="container grid justify-center md:flex ">
+        <div className="ml-10 w-[1000px]">
           <img
-            className="mx-auto mt-2 h-[300px] w-[300px] md:ml-16 "
+            className="mx-auto h-[300px] w-[300px] "
             src="/dblogo-bluecircle.png"
             alt="DB Recruiting Logo"
           />
         </div>
       </div>
-      <div className="mt-6 grid max-w-screen-xl px-10 py-1 md:flex md:px-4">
-        {displayTraits}
+
+      <div className="mx-auto flex max-w-screen-xl justify-center py-1 text-center">
+        <div className="grid md:flex">{displayTraits}</div>
       </div>
     </div>
   );
