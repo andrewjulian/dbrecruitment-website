@@ -3,13 +3,17 @@ import { TbCircleChevronLeft, TbCircleChevronRight } from "react-icons/tb";
 
 const reviews = [
   {
-    id: 1,
+    name: "Jennifer Gilligan - VP of Marketing and Business Development",
+    comment:
+      "David is a consummate professional and has been very receptive to feedback on candidates. He has provided high-quality candidates for positions we had open and had excellent follow-ups. Will definitely use David and DB Recruitment Group in the future.",
+    business: "IntegraMSP",
+  },
+  {
     name: "John Doe",
     comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     business: "Google",
   },
   {
-    id: 2,
     name: "Jane Smith",
     comment:
       "Nulla facilisi. Fusce auctor felis eu diam semper, id consectetur arcu sagittis.",
@@ -33,7 +37,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div id="testimonials" className="mx-10  mt-16 max-w-2xl sm:mx-auto">
+    <div id="testimonials" className="mx-10  mt-16 max-w-4xl sm:mx-auto">
       <h1 className=" text-center text-3xl font-bold sm:pl-3 ">
         See what our clients have to say about us!
       </h1>
