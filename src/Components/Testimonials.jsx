@@ -37,7 +37,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div id="testimonials" className="mx-10  mt-16 max-w-4xl sm:mx-auto">
+    <div id="testimonials" className="mx-10  mt-12 max-w-4xl sm:mx-auto">
       <h1 className=" text-center text-3xl font-bold sm:pl-3 ">
         See what our clients have to say about us!
       </h1>
@@ -49,7 +49,7 @@ const Testimonials = () => {
           <TbCircleChevronLeft className="h-5 w-5" />
         </button>
         <section className=" bg-white ">
-          <div className="mx-auto max-w-screen-xl px-4 py-6 text-center lg:px-6 lg:py-16">
+          <div className="mx-auto max-w-screen-xl px-4  text-center lg:px-6 lg:py-16">
             <figure className="mx-auto max-w-screen-md">
               <svg
                 className="mx-auto mb-3 h-12 text-gray-400 dark:text-gray-600"
