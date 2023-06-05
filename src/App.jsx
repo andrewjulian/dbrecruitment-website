@@ -12,22 +12,20 @@ import Industries from "./Components/Industries";
 import Footer from "./Components/Footer";
 function App() {
   return (
-    <>
-      <div className="align-center justify-center">
-        <div className=" absolute  z-0 ">
-          <div className="bg-repeate-space absolute left-[0px] top-[100px] h-full w-full bg-triangles opacity-[.30]"></div>
-          <Navbar link={Link} />
-          <Hero />
-          <About />
-          <Services />
-          <Industries />
-          <Team />
-          <Testimonials />
-          <Contact />
-          <Footer />
-        </div>
+    <div className="align-center relative min-h-screen w-full justify-center">
+      <div className="absolute left-[0px] top-[100px] h-full w-full bg-triangles bg-repeat opacity-[.30]"></div>
+      <div className=" z-0 ">
+        <Navbar link={Link} />
+        <Hero />
+        <About />
+        <Services />
+        <Industries />
+        <Team />
+        <Testimonials />
+        <Contact />
+        <Footer />
       </div>
-    </>
+    </div>
   );
 }
 
