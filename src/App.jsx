@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <div className="align-center justify-center">
+        <div className=" absolute -left-[300px] top-[800px] z-0 h-[1000px] w-[900px] skew-y-12 transform rounded-[1000px] bg-[#36b6ff70] blur-md filter"></div>
         <Navbar link={Link} />
         <Hero />
         <About />

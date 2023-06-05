@@ -31,8 +31,7 @@ const Services = () => {
   ];
   return (
     <div id="services" className="grid w-full  py-10">
-      <div className=" -skew-x-18 absolute left-[-200px] top-[1100px] z-0 h-[2000px] w-[2000px] -skew-y-12 transform rounded-full bg-[#36b6ff]"></div>
-      <div className="relative z-10">
+      <div className="relative">
         <div className="mx-auto w-[60%]">
           <h1 className="mb-6 text-center text-4xl font-bold">OUR SERVICES</h1>
           <div className="container mx-auto">
