@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-repeat-custom {
+  background-repeat: repeat;
+  background-position: -10px -10px;
+}

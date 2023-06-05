@@ -1,5 +1,6 @@
 import React from "react";
 import Service from "../Components/Service";
+import "../App.css";
 
 const Services = () => {
   const data = [
@@ -30,11 +31,11 @@ const Services = () => {
     },
   ];
   return (
-    <div id="services" className="grid w-full  py-10">
+    <div id="services" className="relative grid w-full py-10">
       <div className="relative">
         <div className="mx-auto w-[60%]">
           <h1 className="mb-6 text-center text-4xl font-bold">OUR SERVICES</h1>
-          <div className="container mx-auto ">
+          <div className="container mx-auto">
             {data.map((item, key) => (
               <Service
                 title={item.title}

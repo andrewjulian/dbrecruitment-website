@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        stock: "url('./hero.jpeg')"
+        stock: "url('./hero.jpeg')",
+        triangles: "url('./shapes1.png')",
       },
     },
   },

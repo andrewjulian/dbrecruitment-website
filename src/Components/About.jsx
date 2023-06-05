@@ -32,7 +32,7 @@ const AboutUsPage = () => {
   return (
     <div
       id="about"
-      className="mx-auto mb-5 flex flex-col items-center justify-center "
+      className="mx-auto mb-5 flex flex-col items-center justify-center bg-white "
     >
       <div className=" mt-6 grid max-w-screen-xl  py-1 md:flex">
         <div className="md:ml-10 ">

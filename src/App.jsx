@@ -14,26 +14,8 @@ function App() {
   return (
     <>
       <div className="align-center justify-center">
-        <div className=" z-0 flex justify-center">
-          <img
-            className="absolute -left-[25px] top-[950px]  h-auto w-[700px] "
-            src="./shapes1.png"
-          />
-          <img
-            className="absolute left-[268px] top-[1450px] h-auto w-[700px] "
-            src="./shapes1.png"
-          />
-          <img
-            className="absolute left-[560px] top-[1285px] h-auto w-[700px] "
-            src="./shapes1.png"
-          />
-          <img
-            className="absolute left-[560px] top-[950px] h-auto w-[700px] "
-            src="./shapes1.png"
-          />
-        </div>
-
         <div className=" absolute  z-0 ">
+          <div className="bg-repeate-space absolute left-[0px] top-[100px] h-full w-full bg-triangles opacity-[.30]"></div>
           <Navbar link={Link} />
           <Hero />
           <About />
