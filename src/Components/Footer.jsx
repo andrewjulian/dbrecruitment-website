@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer text-base-content bg-black px-5 text-white">
-      <div className="m-2 flex items-center justify-between text-center">
+    <div className=" text-base-content bg-black px-5 text-white">
+      <div className="flex items-center justify-between text-center">
         <div className="flex">
           <img
             className="m-4 h-16 w-16"

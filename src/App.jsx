@@ -12,9 +12,8 @@ import Industries from "./Components/Industries";
 import Footer from "./Components/Footer";
 function App() {
   return (
-    <div className="align-center relative min-h-screen w-full justify-center">
-      <div className="absolute left-[0px] top-[100px] h-full w-full bg-triangles bg-repeat opacity-[.30]"></div>
-      <div className=" z-0 ">
+    <>
+      <div className="align-center justify-center">
         <Navbar link={Link} />
         <Hero />
         <About />
@@ -25,7 +24,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
-    </div>
+    </>
   );
 }
 
