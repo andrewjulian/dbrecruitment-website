@@ -30,7 +30,7 @@ const Services = () => {
     },
   ];
   return (
-    <div id="services" className="grid w-full bg-gray-300 py-10">
+    <div id="services" className="grid w-full  py-10">
       <div className="mx-auto w-[60%]">
         <h1 className="mb-6 text-center text-4xl font-bold">OUR SERVICES</h1>
         <div className="container mx-auto">
