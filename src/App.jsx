@@ -14,19 +14,36 @@ function App() {
   return (
     <>
       <div className="align-center justify-center">
-        <div className=" absolute left-[50px] top-[930px] z-0 h-[750px] w-[800px]  transform  rounded-[1000px] bg-[#36b6ff70] blur-xl filter"></div>
-        <div className=" absolute left-[700px] top-[1030px] z-0 h-[600px] w-[800px]  transform  rounded-[1000px] bg-[#36b6ff30] blur-xl filter"></div>
-        <div className=" absolute left-[500px] top-[1330px] z-0 h-[600px] w-[1000px]  transform  rounded-[1000px] bg-[#36b6ff50] blur-xl filter"></div>
-        <div className=" absolute  top-[2015px] z-0 h-[600px] w-[3000px]  transform  bg-gray-300 blur-md filter"></div>
-        <Navbar link={Link} />
-        <Hero />
-        <About />
-        <Services />
-        <Industries />
-        <Team />
-        <Testimonials />
-        <Contact />
-        <Footer />
+        <div className=" z-0 flex justify-center">
+          <img
+            className="absolute -left-[25px] top-[950px]  h-auto w-[700px] "
+            src="./shapes1.png"
+          />
+          <img
+            className="absolute left-[268px] top-[1450px] h-auto w-[700px] "
+            src="./shapes1.png"
+          />
+          <img
+            className="absolute left-[560px] top-[1285px] h-auto w-[700px] "
+            src="./shapes1.png"
+          />
+          <img
+            className="absolute left-[560px] top-[950px] h-auto w-[700px] "
+            src="./shapes1.png"
+          />
+        </div>
+
+        <div className=" absolute  z-0 ">
+          <Navbar link={Link} />
+          <Hero />
+          <About />
+          <Services />
+          <Industries />
+          <Team />
+          <Testimonials />
+          <Contact />
+          <Footer />
+        </div>
       </div>
     </>
   );
