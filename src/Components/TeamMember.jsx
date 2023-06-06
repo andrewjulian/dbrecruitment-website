@@ -15,7 +15,7 @@ const TeamMember = ({ member }) => {
         <span className="text-md text-gray-500 dark:text-gray-400">
           {member.title}
         </span>
-        <div className="py-auto my-3 flex h-[50px] items-center space-x-3 px-2 hover:rounded hover:bg-[#36b6ff50]">
+        <div className="py-auto my-3 flex h-[50px] items-center space-x-3 px-2 hover:scale-125 hover:rounded">
           <a href={member.linkedin} target="_blank">
             <img
               src="https://icongr.am/devicon/linkedin-original-wordmark.svg?size=128&color=currentColor"
