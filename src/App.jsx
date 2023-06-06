@@ -21,8 +21,8 @@ function App() {
         <Industries />
         <Team />
         <Testimonials />
-        <Contact />
         <Footer />
+        <Contact />
       </div>
     </>
   );
