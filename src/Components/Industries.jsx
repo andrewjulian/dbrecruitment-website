@@ -39,7 +39,7 @@ const Industries = () => {
 
   return (
     <div className="relative">
-      <div className="relative z-10 w-full bg-white pb-10 pt-4 ">
+      <div className="relative z-10 w-full bg-gradient-to-b from-[#36b6ff50] to-[#36b6ff25] pb-10 pt-4 ">
         <div className="mx-auto max-w-screen-xl">
           <p className="my-6 ml-4 hidden text-xl font-bold md:flex">
             We are currently working with the following industries:

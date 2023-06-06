@@ -30,7 +30,7 @@ const Team = () => {
   return (
     <div
       id="team"
-      className=" relative z-10  bg-gradient-to-b from-white via-[#36b6ff50] to-white pt-10"
+      className=" relative z-10  bg-gradient-to-b from-[#36b6ff25] to-white pt-10"
     >
       <div className="z-10 mx-auto  grid max-w-screen-xl px-4 ">
         <h1 className="mb-2 text-center text-4xl font-bold">OUR TEAM</h1>

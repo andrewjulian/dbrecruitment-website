@@ -33,7 +33,7 @@ const AboutUsPage = () => {
     <div className="relative">
       <div
         id="about"
-        className=" mx-auto my-5 flex h-full flex-col items-center justify-center bg-white "
+        className=" mx-auto flex h-full flex-col items-center justify-center bg-gradient-to-b from-white to-[#36b6ff25] py-5 "
       >
         <div className=" mt-6 grid max-w-screen-xl py-1 md:flex">
           <div className="md:ml-10 ">
@@ -61,7 +61,7 @@ const AboutUsPage = () => {
           </div>
         </div>
 
-        <div className="mx-auto max-w-screen-xl  justify-center text-center md:flex">
+        <div className="mx-auto w-full justify-center  text-center md:flex">
           <div className="grid sm:grid-cols-2 md:flex">{displayTraits}</div>
         </div>
       </div>
