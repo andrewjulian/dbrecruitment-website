@@ -38,13 +38,7 @@ const Testimonials = () => {
 
   return (
     <div className="relative bg-white">
-      <div
-        id="testimonials"
-        className="mx-10  max-w-4xl bg-white pt-12 sm:mx-auto"
-      >
-        <h1 className=" text-center text-3xl font-bold sm:pl-3 ">
-          See what our clients have to say about us!
-        </h1>
+      <div id="testimonials" className="mx-10  max-w-4xl bg-white  sm:mx-auto">
         <div className=" flex items-center justify-between">
           <button
             className="rounded-full bg-gray-200 p-2 hover:bg-gray-300"
