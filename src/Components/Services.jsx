@@ -33,10 +33,10 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="text-based-content relative grid w-full bg-gradient-to-b from-white via-[#36b6ff50] to-white py-10"
+      className="text-based-content relative grid w-full bg-gradient-to-b from-white via-[#36b6ff50] to-white pt-10"
     >
       <div className="mx-auto w-[60%]">
-        <h1 className="mb-6 text-center text-4xl font-bold">OUR SERVICES</h1>
+        <h1 className="mb-6  text-center text-4xl font-bold">OUR SERVICES</h1>
         <div className="container mx-auto">
           {data.map((item, key) => (
             <Service

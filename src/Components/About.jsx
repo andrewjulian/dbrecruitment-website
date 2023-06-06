@@ -33,7 +33,7 @@ const AboutUsPage = () => {
     <div className="relative">
       <div
         id="about"
-        className=" mx-auto mb-5 flex h-full flex-col items-center justify-center bg-white "
+        className=" mx-auto my-5 flex h-full flex-col items-center justify-center bg-white "
       >
         <div className=" mt-6 grid max-w-screen-xl py-1 md:flex">
           <div className="md:ml-10 ">
