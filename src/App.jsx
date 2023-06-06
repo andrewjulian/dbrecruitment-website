@@ -22,7 +22,6 @@ function App() {
         <Team />
         <Testimonials />
         <Footer />
-        <Contact />
       </div>
     </>
   );
