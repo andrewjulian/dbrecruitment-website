@@ -38,7 +38,7 @@ const Industries = () => {
   ));
 
   return (
-    <div className="relative">
+    <div id="industries" className="relative">
       <div className="relative z-10 w-full bg-gradient-to-b from-[#36b6ff25] to-[#36b6ff50] pb-4 pt-16 ">
         <div className="mx-auto max-w-screen-xl">
           <h1 className="mb-6 pl-4 text-4xl font-bold">

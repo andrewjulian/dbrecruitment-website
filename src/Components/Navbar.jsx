@@ -65,7 +65,7 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <Link
-            to="services"
+            to="industries"
             spy={true}
             smooth={true}
             offset={-90}
@@ -155,7 +155,7 @@ const Navbar = () => {
           </li>
           <li className="border-b border-[#36b6ff] py-4 pl-5">
             <Link
-              to="services"
+              to="industries"
               spy={true}
               smooth={true}
               offset={-90}
