@@ -7,28 +7,28 @@ const Services = () => {
     {
       title: "Executive Serarch",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo.",
+        "Our Executive Search service connects your organization with industry-leading executives. We leverage our deep industry knowledge and extensive network to identify and secure high-caliber leaders that can guide your organization to new heights.",
     },
     {
       title: "Direct Hire",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo.",
+        "Our Direct Hire service ensures the best match for your organization's needs. We meticulously identify, engage, and place top talent directly into your organization, driving the success and growth of your business.",
     },
     {
       title: "Contract Staffing",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo.",
+        "With our Contract Staffing service, we provide skilled professionals for specified contract periods, facilitating project-specific hiring and allowing for flexibility and scalability within your organization.",
     },
     {
-      title: "Temp-to-Hire",
+      title: "Recruitment Process Outsourcing",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo.",
+        "Our Recruitment Process Outsourcing (RPO) service delivers cost-efficient and effective recruitment solutions. By acting as your company's internal recruitment function, our dedicated team streamlines hiring processes, improving both the quality of hires and operational efficiency",
     },
-    {
+    /* {
       title: "Managed Services",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo.",
-    },
+    }, */
   ];
   return (
     <div

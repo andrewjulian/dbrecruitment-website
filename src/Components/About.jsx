@@ -5,12 +5,12 @@ const traits = [
   {
     title: "Extensive Network",
     description:
-      "We have cultivated strong relationships with top clients in the defense and space sector, giving us exclusive access to a wide range of job openings. Our vast network allows us to match talented professionals like you with the right opportunities that align with your skills and aspirations.",
+      "We maintain and establish strong relationships with top clients across various industries, providing us with exclusive access to a broad range of job opportunities. Our extensive network allows us to effectively match talented professionals with the right opportunities that align with their skills and career goals.",
   },
   {
     title: "Personalized Approach",
     description:
-      "At DB Recruitment Group, we believe in taking a personalized approach to understand your career goals, strengths, and preferences. We'll work closely with you to find the perfect fit, ensuring a rewarding and fulfilling career journey.",
+      "At DB Recruitment Group, we believe in taking a personalized approach to understand your company or career goals, strengths, and preferences. We'll work closely with you to find the perfect fit, ensuring a rewarding and fulfilling career journey.",
   },
   {
     title: "Industry Expertise",
@@ -54,7 +54,7 @@ const AboutUsPage = () => {
           </div>
           <div className=" mb-4 w-[1000px] md:mb-0 md:ml-10">
             <img
-              className="mx-auto mt-2 h-[250px] w-[250px] "
+              className="mx-auto mt-2 h-[250px] w-[250px] rounded-full "
               src="/dblogo-bluecircle.png"
               alt="DB Recruiting Logo"
             />
