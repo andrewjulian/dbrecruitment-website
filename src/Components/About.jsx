@@ -6,21 +6,25 @@ const traits = [
     title: "Extensive Network",
     description:
       "We maintain and establish strong relationships with top clients across various industries, providing us with exclusive access to a broad range of job opportunities. Our extensive network allows us to effectively match talented professionals with the right opportunities that align with their skills and career goals.",
+    image: "url(./network.png)",
   },
   {
     title: "Personalized Approach",
     description:
       "At DB Recruitment Group, we believe in taking a personalized approach to understand your company or career goals, strengths, and preferences. We'll work closely with you to find the perfect fit, ensuring a rewarding and fulfilling career journey.",
+    image: "url(./network.png)",
   },
   {
     title: "Industry Expertise",
     description:
       "Our team of experienced recruiters has in-depth knowledge of the defense and space industry. We stay up-to-date with the latest trends and requirements, enabling us to provide valuable insights and guidance throughout the hiring process.",
+    image: "url(./network.png)",
   },
   {
     title: "Confidentiality",
     description:
       "We understand the importance of discretion and confidentiality when it comes to security clearances. Rest assured that your information will be handled with the utmost care and professionalism.",
+    image: "url(./network.png)",
   },
 ];
 
@@ -33,7 +37,7 @@ const AboutUsPage = () => {
     <div className="relative">
       <div
         id="about"
-        className=" mx-auto flex h-full flex-col items-center justify-center bg-gradient-to-b from-white to-[#36b6ff25] py-5 "
+        className=" mx-auto flex h-full flex-col items-center justify-center bg-gradient-to-b from-white to-[#36b6ff25] pb-5 pt-10 "
       >
         <div className=" mt-6 grid max-w-screen-xl py-1 md:flex">
           <div className="md:ml-10 ">

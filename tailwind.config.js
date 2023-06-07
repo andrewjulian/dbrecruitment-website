@@ -6,6 +6,7 @@ export default {
       backgroundImage: {
         stock: "url('./hero.jpeg')",
         triangles: "url('./shapes1.png')",
+        network: "url('./network.png')",
       },
     },
   },
