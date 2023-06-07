@@ -5,7 +5,7 @@ import "../App.css";
 const Services = () => {
   const data = [
     {
-      title: "Executive Serarch",
+      title: "Executive Search",
       content:
         "Our Executive Search service connects your organization with industry-leading executives. We leverage our deep industry knowledge and extensive network to identify and secure high-caliber leaders that can guide your organization to new heights.",
     },
@@ -33,10 +33,9 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="text-based-content relative grid w-full bg-gradient-to-b from-[#36b6ff25] to-[#36b6ff50] pt-10"
+      className="text-based-content relative grid w-full bg-gradient-to-b from-[#36b6ff50] to-[#36b6ff25] py-10"
     >
       <div className="mx-auto w-[60%]">
-        <h1 className="mb-6  text-center text-4xl font-bold">OUR SERVICES</h1>
         <div className="container mx-auto">
           {data.map((item, key) => (
             <Service

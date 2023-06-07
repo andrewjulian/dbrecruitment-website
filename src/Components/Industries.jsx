@@ -39,11 +39,11 @@ const Industries = () => {
 
   return (
     <div className="relative">
-      <div className="relative z-10 w-full bg-gradient-to-b from-[#36b6ff50] to-[#36b6ff25] pb-10 pt-4 ">
+      <div className="relative z-10 w-full bg-gradient-to-b from-[#36b6ff25] to-[#36b6ff50] pb-4 pt-16 ">
         <div className="mx-auto max-w-screen-xl">
-          <p className="my-6 ml-4 hidden text-xl font-bold md:flex">
-            We are currently working with the following industries:
-          </p>
+          <h1 className="mb-6 pl-4 text-4xl font-bold">
+            INDUSTRIES AND SERVICES
+          </h1>
           <div>
             <div className="grid grid-cols-1  gap-4 px-10 sm:grid-cols-2 md:px-4">
               {displayIndustries}

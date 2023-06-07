@@ -17,8 +17,9 @@ function App() {
         <Navbar link={Link} />
         <Hero />
         <About />
-        <Services />
         <Industries />
+        <Services />
+
         <Team />
         <Testimonials />
         <Footer />
