@@ -7,7 +7,7 @@ const Trait = ({ trait }) => {
         <div className="relative h-full w-full rounded-xl border-2 border-[#36b6ff] shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
           <div
             className="absolute inset-0 rounded-xl bg-cover"
-            style={{ backgroundImage: `${trait.image}`, opacity: 0.2 }}
+            style={{ backgroundImage: `${trait.image}`, opacity: 0.4 }}
           ></div>
           <div className="absolute inset-0 flex items-center justify-center p-2 text-2xl">
             {trait.title}
