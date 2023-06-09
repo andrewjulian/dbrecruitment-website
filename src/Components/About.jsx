@@ -12,19 +12,19 @@ const traits = [
     title: "Personalized Approach",
     description:
       "At DB Recruitment Group, we believe in taking a personalized approach to understand your company or career goals, strengths, and preferences. We'll work closely with you to find the perfect fit, ensuring a rewarding and fulfilling career journey.",
-    image: "url(./network.png)",
+    image: "url(./personalized.png)",
   },
   {
     title: "Industry Expertise",
     description:
       "Our team of experienced recruiters has in-depth knowledge of the defense and space industry. We stay up-to-date with the latest trends and requirements, enabling us to provide valuable insights and guidance throughout the hiring process.",
-    image: "url(./network.png)",
+    image: "url(./industryexp.png)",
   },
   {
     title: "Confidentiality",
     description:
       "We understand the importance of discretion and confidentiality when it comes to security clearances. Rest assured that your information will be handled with the utmost care and professionalism.",
-    image: "url(./network.png)",
+    image: "url(./confidential.png)",
   },
 ];
 
