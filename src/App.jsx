@@ -10,6 +10,7 @@ import Testimonials from "./Components/Testimonials";
 import Contact from "./Components/Contact";
 import Industries from "./Components/Industries";
 import Footer from "./Components/Footer";
+import Jobs from "./Components/Jobs";
 function App() {
   return (
     <>
@@ -19,10 +20,10 @@ function App() {
         <About />
         <Industries />
         <Services />
-
         <Team />
         <Testimonials />
         <Footer />
+        <Jobs />
       </div>
     </>
   );

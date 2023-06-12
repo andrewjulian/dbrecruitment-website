@@ -103,6 +103,19 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li className="p-4">
+          <Link
+            to="jobs"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={handleNav}
+            className="cursor-pointer hover:text-black"
+          >
+            JOBS
+          </Link>
+        </li>
       </ul>
 
       <div onClick={handleNav} className="m-2 block md:hidden">
