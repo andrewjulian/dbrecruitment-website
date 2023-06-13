@@ -88,6 +88,7 @@ const Navbar = ({ NavLink }) => {
           >
             Team
           </Link>
+          <NavLink to="/" />
         </li>
 
         <li className="p-4">
@@ -104,13 +105,7 @@ const Navbar = ({ NavLink }) => {
           </Link>
         </li>
         <li className="p-4">
-          <NavLink
-            to="/jobs"
-            onClick={handleNav}
-            className="cursor-pointer hover:text-black"
-          >
-            JOBS
-          </NavLink>
+          <NavLink to="/jobs">JOBS</NavLink>
         </li>
       </ul>
 

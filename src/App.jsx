@@ -10,15 +10,16 @@ import Industries from "./Components/Industries";
 import Footer from "./Components/Footer";
 import { Routes, Route, NavLink } from "react-router-dom";
 import Jobs from "./Components/Jobs";
-function App() {
+
+const App = () => {
   return (
     <>
-      <Navbar NavLink={NavLink} />
       <Routes>
         <Route
           path="/"
           element={
             <div className="align-center justify-center">
+              <Navbar NavLink={NavLink} />
               <Hero />
               <About />
               <Industries />
@@ -29,10 +30,18 @@ function App() {
             </div>
           }
         />
-        <Route path="/jobs" element={<Jobs />} />
+        <Route
+          path="/jobs"
+          element={
+            <div className="align-center justify-center">
+              <Navbar NavLink={NavLink} />
+              <Jobs />
+            </div>
+          }
+        />
       </Routes>
     </>
   );
-}
+};
 
 export default App;
