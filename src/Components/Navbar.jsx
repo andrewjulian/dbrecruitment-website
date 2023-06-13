@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-scroll";
 
-const Navbar = () => {
+const Navbar = ({ NavLink }) => {
   const [nav, setNav] = useState(false);
 
-  const handleNav = () => {
+  const handleNav = ({ link }) => {
     setNav(!nav);
   };
 
@@ -104,17 +104,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="p-4">
-          <Link
-            to="jobs"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
+          <NavLink
+            to="/jobs"
             onClick={handleNav}
             className="cursor-pointer hover:text-black"
           >
             JOBS
-          </Link>
+          </NavLink>
         </li>
       </ul>
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Jobs = () => {
   return (
-    <div>
+    <div id="jobs">
       <h1 className="mb-2 text-center text-4xl font-bold">CURRENT POSITIONS</h1>
 
       <iframe
