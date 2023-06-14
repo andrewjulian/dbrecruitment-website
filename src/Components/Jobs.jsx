@@ -34,10 +34,12 @@ const Jobs = () => {
         </ul>
       </div>
 
-      <iframe
-        className="h-[900px] max-h-[90%] w-[900px] max-w-[90%] border-none"
-        src="https://recruitcrm.io/jobs/DB_Recruitment_Group_jobs"
-      ></iframe>
+      <div className="flex h-screen items-center justify-center">
+        <iframe
+          className="h-full w-full border-none"
+          src="https://recruitcrm.io/jobs/DB_Recruitment_Group_jobs"
+        ></iframe>
+      </div>
     </div>
   );
 };
