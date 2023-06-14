@@ -1,5 +1,6 @@
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
+import { TfiControlBackward } from "react-icons/tfi";
 
 const Jobs = () => {
   return (
@@ -21,9 +22,13 @@ const Jobs = () => {
         </div>
 
         <ul className="hidden md:flex">
-          <li className="p-4">
-            <RouterLink to="/" className="cursor-pointer hover:text-black">
-              `Back to DB Rescruitment Group Website"
+          <li className="flex p-4">
+            <RouterLink
+              to="/"
+              className="flex cursor-pointer items-center hover:text-black"
+            >
+              <TfiControlBackward className="mr-3" />
+              <div>Back to DB Recruitment Group Website</div>
             </RouterLink>
           </li>
         </ul>
