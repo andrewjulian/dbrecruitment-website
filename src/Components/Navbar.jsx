@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
-const Navbar = ({ NavLink }) => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
 
-  const handleNav = ({ link }) => {
+  const handleNav = () => {
     setNav(!nav);
   };
 
@@ -88,7 +89,6 @@ const Navbar = ({ NavLink }) => {
           >
             Team
           </Link>
-          <NavLink to="/" />
         </li>
 
         <li className="p-4">
@@ -105,7 +105,7 @@ const Navbar = ({ NavLink }) => {
           </Link>
         </li>
         <li className="p-4">
-          <NavLink to="/jobs">JOBS</NavLink>
+          <RouterLink to="/jobs">Jobs</RouterLink>
         </li>
       </ul>
 

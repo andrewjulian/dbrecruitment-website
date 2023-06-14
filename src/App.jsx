@@ -8,8 +8,9 @@ import Team from "./Components/Team";
 import Testimonials from "./Components/Testimonials";
 import Industries from "./Components/Industries";
 import Footer from "./Components/Footer";
-import { Routes, Route, NavLink } from "react-router-dom";
 import Jobs from "./Components/Jobs";
+
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
           path="/"
           element={
             <div className="align-center justify-center">
-              <Navbar NavLink={NavLink} />
+              <Navbar />
               <Hero />
               <About />
               <Industries />
@@ -30,15 +31,7 @@ const App = () => {
             </div>
           }
         />
-        <Route
-          path="/jobs"
-          element={
-            <div className="align-center justify-center">
-              <Navbar NavLink={NavLink} />
-              <Jobs />
-            </div>
-          }
-        />
+        <Route path="/jobs" element={<Jobs />} />
       </Routes>
     </>
   );
