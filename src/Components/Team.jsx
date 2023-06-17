@@ -23,6 +23,13 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/in/shelbygracecarter/",
     image: "/shelby_profile.jpeg",
   },
+  {
+    name: "Mark Blaha",
+    title1: "Technical Sourcing Specialist for",
+    title2: "Top Secret Defense Positions",
+    linkedin: "https://www.linkedin.com/in/mark-blaha-34b2632b/",
+    image: "/mark_profile.jpeg",
+  },
 ];
 
 const Team = () => {
