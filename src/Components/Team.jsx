@@ -16,7 +16,7 @@ const teamMembers = [
   },
   {
     name: "Shelby Carter",
-    title: "Lead Recruiter",
+    title: "Lead Technical Recruiter and Business Development",
     linkedin: "https://www.linkedin.com/in/shelbygracecarter/",
     image: "/shelby_profile.jpeg",
   },
