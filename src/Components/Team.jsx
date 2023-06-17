@@ -4,19 +4,22 @@ import TeamMember from "./TeamMember";
 const teamMembers = [
   {
     name: "Ben Puschett",
-    title: "Founder, Head of Recruitment",
+    title1: "Founder",
+    title2: "Head of Recruitment",
     linkedin: "https://www.linkedin.com/in/benjaminpuschett/",
     image: "/ben_profile.jpeg",
   },
   {
     name: "David Vacianna",
-    title: "Founder, Head of Business Development",
+    title1: "Founder",
+    title2: "Head of Business Development",
     linkedin: "https://www.linkedin.com/in/david-vacianna/",
     image: "/david_profile.jpeg",
   },
   {
     name: "Shelby Carter",
-    title: "Lead Technical Recruiter and Business Development",
+    title1: "Lead Technical Recruiter",
+    title2: "Business Development",
     linkedin: "https://www.linkedin.com/in/shelbygracecarter/",
     image: "/shelby_profile.jpeg",
   },
