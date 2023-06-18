@@ -152,7 +152,7 @@ const Navbar = () => {
               offset={-90}
               duration={500}
               onClick={handleNav}
-              className="cursor-pointer"
+              className="cursor-pointer hover:text-black"
             >
               About
             </Link>
@@ -196,6 +196,9 @@ const Navbar = () => {
             >
               Contact
             </Link>
+          </li>
+          <li className="border-b border-[#36b6ff] py-4 pl-5">
+            <RouterLink to="/jobs">Jobs</RouterLink>
           </li>
         </ul>
       </div>
