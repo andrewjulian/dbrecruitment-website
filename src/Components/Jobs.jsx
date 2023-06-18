@@ -25,10 +25,12 @@ const Jobs = () => {
           <li className="flex p-4">
             <RouterLink
               to="/"
-              className="flex cursor-pointer items-center hover:text-black"
+              className="grid cursor-pointer items-center hover:text-black lg:flex"
             >
               <TfiControlBackward className="mr-3" />
-              <div>Back to DB Recruitment Group Website</div>
+              <div className="lg: display hidden">
+                Back to DB Recruitment Group Website
+              </div>
             </RouterLink>
           </li>
         </ul>
