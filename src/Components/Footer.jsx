@@ -43,41 +43,41 @@ const Footer = () => {
                     />
                   </a>
                 </div>
-                <div className="mt-4 grid items-center gap-1 px-2">
+                <div className="mt-2 grid items-center gap-1 px-2">
                   <div className=" flex">
                     <a href="#" title="send email">
-                      <p className="mr-1 text-gray-800">
+                      <p className="mr-1 text-white">
                         Email: info@dbrecruitmentgroup.com
                       </p>
                     </a>
                   </div>
                   <div className="flex">
-                    <p className="mr-1 text-gray-800">Phone: (347)-915-5404</p>
+                    <p className="mr-1 text-white">Phone: (347)-915-5404</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col gap-2 text-sm sm:mt-10">
-            <p className="text-base font-bold tracking-wide text-gray-900">
+          <div className="flex flex-col gap-2 text-sm sm:mt-6">
+            <p className="text-base font-bold tracking-wide text-[#36b6ff]">
               Industries Served
             </p>
-            <a className="text-orange-500">Defense</a>
-            <a className="text-orange-500">Cybersecurity</a>
-            <a className="text-orange-500">MSP</a>
-            <a className="text-orange-500">SaaS</a>
+            <a className="text-gray-400">Defense</a>
+            <a className="text-gray-500">Cybersecurity</a>
+            <a className="text-gray-500">MSP</a>
+            <a className="text-gray-500">SaaS</a>
 
-            <p className="text-base font-bold tracking-wide text-gray-900">
+            <p className="text-base font-bold tracking-wide text-[#36b6ff]">
               Services Offered
             </p>
-            <a className="text-orange-500">Direct Hire</a>
-            <a className="text-orange-500">Contract Staffing</a>
-            <a className="text-orange-500">Recruitment Process Outsourcing </a>
-            <a className="text-orange-500">Executive Search</a>
+            <a className="text-gray-500">Direct Hire</a>
+            <a className="text-gray-500">Contract Staffing</a>
+            <a className="text-gray-500">Recruitment Process Outsourcing </a>
+            <a className="text-gray-500">Executive Search</a>
           </div>
 
-          <div className="flex flex-col gap-2 text-sm sm:mt-10">
+          <div className="flex flex-col gap-2 text-sm sm:mt-6">
             <p className="text-base font-bold tracking-wide text-gray-900">
               About Us
             </p>
