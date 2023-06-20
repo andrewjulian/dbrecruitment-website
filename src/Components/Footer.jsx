@@ -59,64 +59,75 @@ const Footer = () => {
             </a>
             <div className="mt-6 lg:max-w-xl">
               <p className="text-sm text-gray-800">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                felis mi, faucibus dignissim lorem id, imperdiet interdum
-                mauris. Vestibulum ultrices sed libero non porta. Vivamus
-                malesuada urna eu nibh malesuada, non finibus massa laoreet.
-                Nunc nisi velit, feugiat a semper quis, pulvinar id libero.
-                Vivamus mi diam, consectetur non orci ut, tincidunt pretium
-                justo. In vehicula porta molestie. Suspendisse potenti.
+                DB Recruitment Group is a team of skilled recruiters with a
+                proven track record of success as top billers in previous roles.
+                Through the use of RPO models, weare able to provide a more
+                efficient and effective hiring process for our clients across a
+                variety of industries.
               </p>
+            </div>
+            <div>
+              <p className="text-base font-bold tracking-wide text-gray-900">
+                COMPANY IS ALSO AVAILABLE ON
+              </p>
+              <div className="flex items-center gap-1 px-2">
+                <a href="#" className="min-w-xl w-full">
+                  <img
+                    src="https://mcqmate.com/public/images/icons/playstore.svg"
+                    alt="Playstore Button"
+                    className="h-10"
+                  />
+                </a>
+                <a
+                  className="min-w-xl w-full"
+                  href="https://www.youtube.com/channel/UCo8tEi6SrGFP8XG9O0ljFgA"
+                >
+                  <img
+                    src="https://mcqmate.com/public/images/icons/youtube.svg"
+                    alt="Youtube Button"
+                    className="h-28"
+                  />
+                </a>
+              </div>
+              <p className="text-base font-bold tracking-wide text-gray-900">
+                Contacts
+              </p>
+              <div className="flex">
+                <p className="mr-1 text-gray-800">Email:</p>
+                <a href="#" title="send email">
+                  admin@company.com
+                </a>
+              </div>
             </div>
           </div>
 
           <div className="flex flex-col gap-2 text-sm">
             <p className="text-base font-bold tracking-wide text-gray-900">
-              Popular Courses
+              Industries Served
             </p>
-            <a href="#">UPSC - Union Public Service Commission</a>
-            <a href="#">General Knowledge</a>
-            <a href="#">MBA</a>
+            <a className="text-orange-500">Defense</a>
+            <a className="text-orange-500">Cybersecurity</a>
+            <a className="text-orange-500">MSP</a>
+            <a className="text-orange-500">SaaS</a>
+
             <p className="text-base font-bold tracking-wide text-gray-900">
-              Popular Topics
+              Services Offered
             </p>
-            <a href="#">Human Resource Management</a>
-            <a href="#">Operations Management</a>
-            <a href="#">Marketing Management</a>
+            <a className="text-orange-500">Direct Hire</a>
+            <a className="text-orange-500">Contract Staffing</a>
+            <a className="text-orange-500">Recruitment Process Outsourcing </a>
+            <a className="text-orange-500">Executive Search</a>
           </div>
 
-          <div>
+          <div className="flex flex-col gap-2 text-sm">
             <p className="text-base font-bold tracking-wide text-gray-900">
-              COMPANY IS ALSO AVAILABLE ON
+              About Us
             </p>
-            <div className="flex items-center gap-1 px-2">
-              <a href="#" className="min-w-xl w-full">
-                <img
-                  src="https://mcqmate.com/public/images/icons/playstore.svg"
-                  alt="Playstore Button"
-                  className="h-10"
-                />
-              </a>
-              <a
-                className="min-w-xl w-full"
-                href="https://www.youtube.com/channel/UCo8tEi6SrGFP8XG9O0ljFgA"
-              >
-                <img
-                  src="https://mcqmate.com/public/images/icons/youtube.svg"
-                  alt="Youtube Button"
-                  className="h-28"
-                />
-              </a>
-            </div>
+            <a className="text-orange-500">Our Team</a>
+
             <p className="text-base font-bold tracking-wide text-gray-900">
-              Contacts
+              Contact Us
             </p>
-            <div className="flex">
-              <p className="mr-1 text-gray-800">Email:</p>
-              <a href="#" title="send email">
-                admin@company.com
-              </a>
-            </div>
           </div>
         </div>
 
