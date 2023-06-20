@@ -78,14 +78,23 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col gap-2 text-sm sm:mt-6">
-            <p className="text-base font-bold tracking-wide text-gray-900">
-              About Us
+            <p className="text-base font-bold tracking-wide text-[#36b6ff]">
+              Send Us a Message
             </p>
-            <a className="text-orange-500">Our Team</a>
-
-            <p className="text-base font-bold tracking-wide text-gray-900">
-              Contact Us
-            </p>
+            <form className="flex flex-col gap-2">
+              <input
+                className="border-2 border-gray-300 p-2 text-black"
+                type="text"
+                placeholder="Email:"
+              />
+              <textarea
+                className="border-2 border-gray-300 p-2 text-black"
+                placeholder="Message content..."
+              />
+              <button className=" bg-gray-800 p-2 text-[#36b6ff] hover:bg-[#36b6ff] hover:text-white">
+                Send Message
+              </button>
+            </form>
           </div>
         </div>
 
