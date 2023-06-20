@@ -122,26 +122,8 @@ const Footer = () => {
 
         <div className="flex flex-col-reverse justify-between border-t pb-10 pt-5 lg:flex-row">
           <p className="text-sm text-gray-600">
-            © Copyright 2023 Company. All rights reserved.
+            © Copyright 2023 DB Recruitment Group. All rights reserved.
           </p>
-          <ul className="mb-3 flex flex-col space-y-2 sm:flex-row sm:space-x-5 sm:space-y-0 lg:mb-0">
-            <li>
-              <a
-                href="#"
-                className="hover:text-deep-purple-accent-400 text-sm text-gray-600 transition-colors duration-300"
-              >
-                Privacy &amp; Cookies Policy
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-deep-purple-accent-400 text-sm text-gray-600 transition-colors duration-300"
-              >
-                Disclaimer
-              </a>
-            </li>
-          </ul>
         </div>
       </footer>
     </div>
