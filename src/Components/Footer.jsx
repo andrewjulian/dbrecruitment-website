@@ -88,7 +88,7 @@ const Footer = () => {
                 placeholder="Email:"
               />
               <textarea
-                className="border-2 border-gray-300 p-2 text-black"
+                className="h-[15vw] border-2 border-gray-300 p-2 text-black"
                 placeholder="Message content..."
               />
               <button className=" bg-gray-800 p-2 text-[#36b6ff] hover:bg-[#36b6ff] hover:text-white">
@@ -100,7 +100,7 @@ const Footer = () => {
 
         <div className="flex flex-col-reverse justify-between border-t pb-10 pt-5 lg:flex-row">
           <p className="text-sm text-gray-600">
-            © Copyright 2023 DB Recruitment Group. All rights reserved.
+            © Copyright DB Recruitment Group 2023. All rights reserved.
           </p>
         </div>
       </footer>
