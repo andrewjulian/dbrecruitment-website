@@ -64,17 +64,17 @@ const Footer = () => {
               Industries Served
             </p>
             <a className="text-gray-400">Defense</a>
-            <a className="text-gray-500">Cybersecurity</a>
-            <a className="text-gray-500">MSP</a>
-            <a className="text-gray-500">SaaS</a>
+            <a className="text-gray-400">Cybersecurity</a>
+            <a className="text-gray-400">MSP</a>
+            <a className="text-gray-400">SaaS</a>
 
             <p className="text-base font-bold tracking-wide text-[#36b6ff]">
               Services Offered
             </p>
-            <a className="text-gray-500">Direct Hire</a>
-            <a className="text-gray-500">Contract Staffing</a>
-            <a className="text-gray-500">Recruitment Process Outsourcing </a>
-            <a className="text-gray-500">Executive Search</a>
+            <a className="text-gray-400">Direct Hire</a>
+            <a className="text-gray-400">Contract Staffing</a>
+            <a className="text-gray-400">Recruitment Process Outsourcing </a>
+            <a className="text-gray-400">Executive Search</a>
           </div>
 
           <div className="flex flex-col gap-2 text-sm sm:mt-6">
@@ -88,7 +88,7 @@ const Footer = () => {
                 placeholder="Email:"
               />
               <textarea
-                className="h-[15vw] border-2 border-gray-300 p-2 text-black"
+                className="h-[18vh] border-2 border-gray-300 p-2 text-black"
                 placeholder="Message content..."
               />
               <button className=" bg-gray-800 p-2 text-[#36b6ff] hover:bg-[#36b6ff] hover:text-white">
