@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <div className=" text-base-content bg-black px-5 text-[#36b6ff]">
       <footer className="border-t-2 px-3 pt-4 lg:px-9">
