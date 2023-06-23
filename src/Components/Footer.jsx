@@ -86,13 +86,17 @@ const Footer = () => {
             </p>
             <form className="flex flex-col gap-2">
               <input
+                onChange={(e) => setEmail(e.target.value)}
                 className="border-2 border-gray-300 p-2 text-black"
                 type="text"
                 placeholder="Email:"
+                value={email}
               />
               <textarea
+                onChange={(e) => setMessage(e.target.value)}
                 className="h-[18vh] border-2 border-gray-300 p-2 text-black"
                 placeholder="Message content..."
+                value={message}
               />
               <button className=" bg-gray-800 p-2 text-[#36b6ff] hover:bg-[#36b6ff] hover:text-white">
                 Send Message
