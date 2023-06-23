@@ -4,6 +4,13 @@ const Footer = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log(email, message);
+    setEmail("");
+    setMessage("");
+  };
+
   return (
     <div className=" text-base-content bg-black px-5 text-[#36b6ff]">
       <footer className="border-t-2 px-3 pt-4 lg:px-9">
@@ -84,7 +91,7 @@ const Footer = () => {
             <p className="text-base font-bold tracking-wide text-[#36b6ff]">
               Send Us a Message
             </p>
-            <form className="flex flex-col gap-2">
+            <form onSubmit={sendEmail} className="flex flex-col gap-2">
               <input
                 onChange={(e) => setEmail(e.target.value)}
                 className="border-2 border-gray-300 p-2 text-black"
@@ -98,7 +105,10 @@ const Footer = () => {
                 placeholder="Message content..."
                 value={message}
               />
-              <button className=" bg-gray-800 p-2 text-[#36b6ff] hover:bg-[#36b6ff] hover:text-white">
+              <button
+                type="submit"
+                className=" bg-gray-800 p-2 text-[#36b6ff] hover:bg-[#36b6ff] hover:text-white"
+              >
                 Send Message
               </button>
             </form>
