@@ -18,16 +18,16 @@ const Footer = () => {
           <div className="sm:col-span-2">
             <a className="inline-flex items-center">
               <img
-                className="m-4 h-16 w-16"
+                className="my-4 h-16 w-16"
                 src="/dblogo-whitecircle.png"
                 alt="DB Recruiting Logo"
               />
-              <span className="ml-2 text-xl font-bold tracking-wide">
+              <span className=" ml-4 text-2xl font-bold tracking-wide">
                 DB Recruitment Group
               </span>
             </a>
             <div className=" lg:max-w-xl">
-              <p className="text-sm text-white">
+              <p className=" text-sm text-white">
                 DB Recruitment Group is a team of skilled recruiters with a
                 proven track record of success as top billers in previous roles.
                 Through the use of RPO models, weare able to provide a more
@@ -36,11 +36,11 @@ const Footer = () => {
               </p>
             </div>
             <div>
-              <p className="mt-4 text-base font-bold tracking-wide text-[#36b6ff]">
+              <p className="mt-4 text-lg font-bold tracking-wide text-[#36b6ff]">
                 Connect with Us!
               </p>
-              <div className="flex items-center gap-1 px-2">
-                <div className="flex items-center gap-1 px-2">
+              <div className="flex items-center gap-1 pr-2">
+                <div className="flex items-center gap-1 pr-2">
                   <a
                     className="mt-2"
                     href="https://www.linkedin.com/company/db-recruitment-group/"
@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col gap-2 text-sm sm:mt-6">
-            <p className="text-base font-bold tracking-wide text-[#36b6ff]">
+            <p className="text-lg font-bold tracking-wide text-[#36b6ff]">
               Industries Served
             </p>
             <a className="text-gray-400">Defense</a>
@@ -78,7 +78,7 @@ const Footer = () => {
             <a className="text-gray-400">MSP</a>
             <a className="text-gray-400">SaaS</a>
 
-            <p className="text-base font-bold tracking-wide text-[#36b6ff]">
+            <p className="text-lg font-bold tracking-wide text-[#36b6ff]">
               Services Offered
             </p>
             <a className="text-gray-400">Direct Hire</a>
@@ -87,8 +87,8 @@ const Footer = () => {
             <a className="text-gray-400">Executive Search</a>
           </div>
 
-          <div className="flex flex-col gap-2 text-sm sm:mt-6">
-            <p className="text-base font-bold tracking-wide text-[#36b6ff]">
+          <div className="flex flex-col gap-2 text-sm sm:mt-5">
+            <p className=" text-lg font-bold tracking-wide text-[#36b6ff]">
               Send Us a Message
             </p>
             <form onSubmit={sendEmail} className="flex flex-col gap-2">
