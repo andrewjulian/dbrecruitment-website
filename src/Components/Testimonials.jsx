@@ -9,15 +9,10 @@ const reviews = [
     business: "IntegraMSP",
   },
   {
-    name: "John Doe",
-    comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    business: "Google",
-  },
-  {
-    name: "Jane Smith",
+    name: "Andrew Julian - Software Engineer",
     comment:
-      "Nulla facilisi. Fusce auctor felis eu diam semper, id consectetur arcu sagittis.",
-    business: "Meta",
+      "Working with Shelby, David, Ben, and the growing DBRG team was a great experience. They were very professional and helpful. I would highly recommend them to anyone looking for a new opportunity.",
+    business: "",
   },
 ];
 
