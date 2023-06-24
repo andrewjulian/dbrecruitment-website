@@ -9,6 +9,7 @@ import Testimonials from "./Components/Testimonials";
 import Industries from "./Components/Industries";
 import Footer from "./Components/Footer";
 import Jobs from "./Components/Jobs";
+import BackToTop from "./Components/BackToTop";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -33,6 +34,7 @@ const App = () => {
         />
         <Route path="/jobs" element={<Jobs />} />
       </Routes>
+      <BackToTop />
     </>
   );
 };
