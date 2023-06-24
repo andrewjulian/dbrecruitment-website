@@ -29,12 +29,12 @@ const App = () => {
               <Team />
               <Testimonials />
               <Footer />
+              <BackToTop />
             </div>
           }
         />
         <Route path="/jobs" element={<Jobs />} />
       </Routes>
-      <BackToTop />
     </>
   );
 };

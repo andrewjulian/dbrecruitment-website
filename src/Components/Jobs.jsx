@@ -5,7 +5,7 @@ import { TfiControlBackward } from "react-icons/tfi";
 const Jobs = () => {
   return (
     <div id="jobs">
-      <div className="sticky top-0 z-30 mx-auto flex h-24 items-center justify-between  bg-[#36b6ff] px-4 text-white  sm:px-10 ">
+      <div className="sticky top-0 z-30 mx-auto flex h-24 items-center justify-between bg-[#36b6ff] px-4 text-white  sm:px-10 ">
         <div className="flex text-center">
           <RouterLink to="/">
             <div className="flex justify-center p-5">
@@ -21,14 +21,14 @@ const Jobs = () => {
           </RouterLink>
         </div>
 
-        <ul className="hidden md:flex">
+        <ul className=" ">
           <li className="flex p-4">
             <RouterLink
               to="/"
               className="grid cursor-pointer items-center hover:text-black lg:flex"
             >
               <TfiControlBackward className="mr-3" />
-              <div className="lg: display hidden">
+              <div className=" sm:display hidden">
                 Back to DB Recruitment Group Website
               </div>
             </RouterLink>
