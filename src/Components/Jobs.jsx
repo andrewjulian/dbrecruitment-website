@@ -28,7 +28,7 @@ const Jobs = () => {
               className="grid cursor-pointer items-center hover:text-black lg:flex"
             >
               <TfiControlBackward className="mr-3" />
-              <div className=" sm:display hidden">
+              <div className=" hidden lg:flex ">
                 Back to DB Recruitment Group Website
               </div>
             </RouterLink>
