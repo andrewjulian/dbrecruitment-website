@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -6,9 +7,27 @@ const Footer = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(email, message);
-    setEmail("");
+
+    emailjs
+      .sendForm(
+        "service_wb48ho9",
+        "template_u4v7tlm",
+        form.current,
+        "0AoACuAncAwV4gUSt"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    setUser_name("");
+    setUser_email("");
     setMessage("");
+    setSuccess(true);
   };
 
   return (
