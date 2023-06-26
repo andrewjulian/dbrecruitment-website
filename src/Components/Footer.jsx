@@ -149,8 +149,8 @@ const Footer = () => {
                 className="border-2 border-gray-300 p-2 text-black"
                 type="text"
                 placeholder="Email:"
-                name="email"
-                id="email"
+                name="user_email"
+                id="user_email"
                 value={user_email}
               />
               <input
