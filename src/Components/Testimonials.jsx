@@ -34,7 +34,7 @@ const Testimonials = () => {
   return (
     <div className="relative bg-white">
       <div id="testimonials" className="mx-10  max-w-4xl bg-white  sm:mx-auto">
-        <div className=" flex items-center justify-between">
+        <div className=" mb-10 flex items-center justify-between md:mb-0">
           <button
             className="rounded-full bg-gray-200 p-2 hover:bg-gray-300"
             onClick={prevSlide}

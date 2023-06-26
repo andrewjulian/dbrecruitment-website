@@ -44,7 +44,7 @@ const Team = () => {
     >
       <div className="z-10 mx-auto  grid max-w-screen-xl px-4 ">
         <h1 className="mb-2 text-center text-4xl font-bold">OUR TEAM</h1>
-        <div className="mb-10 mt-6 grid justify-center gap-4 pl-10 sm:grid-cols-2 lg:flex lg:pl-0">
+        <div className="mb-10 mt-6 grid justify-center gap-4 sm:grid-cols-2 md:pl-10 lg:flex lg:pl-0">
           {team}
         </div>
       </div>
