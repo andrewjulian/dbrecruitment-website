@@ -11,7 +11,7 @@ const Hero = () => {
               Empower Your Business With Our Top Talent
             </h1>
             <p className="font-italic mb-2 max-w-2xl text-black md:text-lg lg:mb-4 lg:text-xl">
-              DB Recruiting Group is a team of skilled recruiters who excel in
+              DB Recruitment Group is a team of skilled recruiters who excel in
               connecting exceptional talent with companies looking for top tier
               candidates.
             </p>

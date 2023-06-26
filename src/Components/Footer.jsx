@@ -2,7 +2,8 @@ import React, { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
+  const [user_email, setEmail] = useState("");
+  const [user_name, setName] = useState("");
   const [message, setMessage] = useState("");
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
@@ -21,7 +22,7 @@ const Footer = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    if (!email || !message) {
+    if (!user_email || !message) {
       setError("Please fill in all fields");
       return;
     } else {
@@ -29,15 +30,15 @@ const Footer = () => {
     }
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
+    if (!emailRegex.test(user_email)) {
       setError("Please enter a valid email address");
       return;
     }
 
-    /* emailjs
+    emailjs
       .sendForm(
-        "service_wb48ho9",
-        "template_u4v7tlm",
+        "service_hlgfgbz",
+        "template_kzyj8ih",
         form.current,
         "0AoACuAncAwV4gUSt"
       )
@@ -48,10 +49,13 @@ const Footer = () => {
         (error) => {
           console.log(error.text);
         }
-      ); */
+      );
+
+    console.log("email sent");
 
     setEmail("");
     setMessage("");
+    setName("");
     setSuccess(true);
   };
 
@@ -135,7 +139,11 @@ const Footer = () => {
             <p className=" text-lg font-bold tracking-wide text-[#36b6ff]">
               Send Us a Message
             </p>
-            <form onSubmit={sendEmail} className="flex flex-col gap-2">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className="flex flex-col gap-2"
+            >
               <input
                 onChange={(e) => setEmail(e.target.value)}
                 className="border-2 border-gray-300 p-2 text-black"
@@ -143,11 +151,20 @@ const Footer = () => {
                 placeholder="Email:"
                 name="email"
                 id="email"
-                value={email}
+                value={user_email}
+              />
+              <input
+                onChange={(e) => setName(e.target.value)}
+                className="border-2 border-gray-300 p-2 text-black"
+                type="text"
+                placeholder="Name:"
+                name="user_name"
+                id="user_name"
+                value={user_name}
               />
               <textarea
                 onChange={(e) => setMessage(e.target.value)}
-                className="h-[18vh] border-2 border-gray-300 p-2 text-black"
+                className="h-[12vh] border-2 border-gray-300 p-2 text-black"
                 name="message"
                 id="message"
                 placeholder="Message content..."
@@ -161,11 +178,11 @@ const Footer = () => {
               </button>
               {success ? (
                 <div
-                  class="mb-4 rounded-lg bg-green-50 p-4 text-sm text-green-800 dark:bg-gray-800 dark:text-green-400"
+                  className="mb-4 rounded-lg bg-green-50 p-4 text-sm text-green-800 dark:bg-gray-800 dark:text-green-400"
                   role="alert"
                 >
-                  <span class="font-medium">Email Sent!</span> I will get back
-                  to you as soon as I can. Thanks for connecting!
+                  <span className="font-medium">Email Sent!</span> I will get
+                  back to you as soon as I can. Thanks for connecting!
                 </div>
               ) : null}
 
@@ -174,7 +191,7 @@ const Footer = () => {
                   class="mb-4 rounded-lg bg-red-50 p-4 text-sm text-red-800 dark:bg-gray-800 dark:text-red-400"
                   role="alert"
                 >
-                  <span class="font-medium">Error!</span> {error}
+                  <span className="font-medium">Error!</span> {error}
                 </div>
               ) : null}
             </form>
