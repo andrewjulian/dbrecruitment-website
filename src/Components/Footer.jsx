@@ -1,14 +1,26 @@
-import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import React, { useRef, useState, useEffect } from "react";
+import emailjs from "@emailjs/browser";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [success, setSuccess] = useState(false);
+
+  const form = useRef();
+
+  useEffect(() => {
+    if (success) {
+      setTimeout(() => {
+        // Your function to be executed after the delay
+        setSuccess(false);
+      }, 3000);
+    }
+  }, [success]);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
+    /* emailjs
       .sendForm(
         "service_wb48ho9",
         "template_u4v7tlm",
@@ -22,10 +34,9 @@ const Footer = () => {
         (error) => {
           console.log(error.text);
         }
-      );
+      ); */
 
-    setUser_name("");
-    setUser_email("");
+    setEmail("");
     setMessage("");
     setSuccess(true);
   };
@@ -116,11 +127,15 @@ const Footer = () => {
                 className="border-2 border-gray-300 p-2 text-black"
                 type="text"
                 placeholder="Email:"
+                name="email"
+                id="email"
                 value={email}
               />
               <textarea
                 onChange={(e) => setMessage(e.target.value)}
                 className="h-[18vh] border-2 border-gray-300 p-2 text-black"
+                name="message"
+                id="message"
                 placeholder="Message content..."
                 value={message}
               />
@@ -130,6 +145,15 @@ const Footer = () => {
               >
                 Send Message
               </button>
+              {success ? (
+                <div
+                  class="mb-4 rounded-lg bg-green-50 p-4 text-sm text-green-800 dark:bg-gray-800 dark:text-green-400"
+                  role="alert"
+                >
+                  <span class="font-medium">Email Sent!</span> I will get back
+                  to you as soon as I can. Thanks for connecting!
+                </div>
+              ) : null}
             </form>
           </div>
         </div>
