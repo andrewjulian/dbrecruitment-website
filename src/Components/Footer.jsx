@@ -5,6 +5,7 @@ const Footer = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [success, setSuccess] = useState(false);
+  const [error, setError] = useState("");
 
   const form = useRef();
 
@@ -19,6 +20,19 @@ const Footer = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (!email || !message) {
+      setError("Please fill in all fields");
+      return;
+    } else {
+      setError("");
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setError("Please enter a valid email address");
+      return;
+    }
 
     /* emailjs
       .sendForm(
@@ -152,6 +166,15 @@ const Footer = () => {
                 >
                   <span class="font-medium">Email Sent!</span> I will get back
                   to you as soon as I can. Thanks for connecting!
+                </div>
+              ) : null}
+
+              {error ? (
+                <div
+                  class="mb-4 rounded-lg bg-red-50 p-4 text-sm text-red-800 dark:bg-gray-800 dark:text-red-400"
+                  role="alert"
+                >
+                  <span class="font-medium">Error!</span> {error}
                 </div>
               ) : null}
             </form>
