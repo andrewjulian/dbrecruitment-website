@@ -39,17 +39,20 @@ const AboutUsPage = () => {
         id="about"
         className=" mx-auto flex h-full flex-col items-center justify-center bg-gradient-to-b from-white to-[#36b6ff25] pb-5 pt-10 "
       >
-        <div className=" mt-6 grid max-w-screen-xl py-1 md:flex">
+        <div className="  mt-6 py-1 md:flex md:max-w-screen-xl">
           <div className="md:ml-10 ">
-            <h1 className="mb-6 text-4xl font-bold">ABOUT US</h1>
-            <p className="mb-8 text-lg text-gray-600">
+            <h1 className="mb-6 text-center text-4xl font-bold md:text-left">
+              ABOUT US
+            </h1>
+            {/*  <p className="md: mb-8 text-lg text-gray-600"> */}
+            <p className="font-italic mx-auto mb-2 max-w-md text-center text-black md:text-lg lg:mb-4 lg:text-xl">
               DB Recruiting Group was founded in 2022 by David Vacianna and Ben
               Puschett to focus on providing recruiting services to companies in
               the tech and IT industries. With the addition of Shelby Carter as
               lead recruiter, DB Recruiting is uniquely equipped to provide
               customized recruiting services to clients.
             </p>
-            <p className="mb-8 text-lg text-gray-600">
+            <p className="font-italic mx-auto mb-2 max-w-md text-center text-black md:text-lg lg:mb-4 lg:text-xl">
               We are a team of skilled recruiters with a proven track record of
               success as top billers in previous roles. Through the use of RPO
               models, we are able to provide a more efficient and effective
