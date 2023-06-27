@@ -30,7 +30,7 @@ const Navbar = () => {
               className="h-[50px] w-auto"
               alt="logo"
             />
-            <h1 className=" my-auto  ml-4 hidden text-2xl text-white lg:flex">
+            <h1 className=" my-auto  ml-4 flex text-2xl text-white sm:hidden lg:flex">
               DB Recruitment Group
             </h1>
           </div>
@@ -119,7 +119,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-[0px] z-10 h-full w-[75%] bg-white text-black duration-500  ease-in-out md:hidden"
+            ? "fixed left-0 top-[0px] z-10 h-full w-[85%] bg-white text-black duration-500  ease-in-out md:hidden"
             : "fixed left-[-100%]"
         }
       >
@@ -127,7 +127,7 @@ const Navbar = () => {
           <li className="flex border-b border-[#36b6ff] p-4 pt-8">
             <img
               src="/dblogo-whitecircle.png"
-              className="h-[50px] w-auto"
+              className="h-[50px] w-auto rounded-full border-2 border-[#36b6ff]"
               alt="logo"
             />
             <h1 className="my-auto ml-4 text-xl text-[#36b6ff] md:text-2xl">
