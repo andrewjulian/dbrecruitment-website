@@ -30,7 +30,7 @@ const Navbar = () => {
               className="h-[50px] w-auto"
               alt="logo"
             />
-            <h1 className="my-auto ml-4 text-2xl text-white">
+            <h1 className=" my-auto  ml-4 hidden text-2xl text-white lg:flex">
               DB Recruitment Group
             </h1>
           </div>

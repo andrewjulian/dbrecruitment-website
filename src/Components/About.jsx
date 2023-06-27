@@ -37,10 +37,10 @@ const AboutUsPage = () => {
     <div className="relative">
       <div
         id="about"
-        className=" mx-auto flex h-full flex-col items-center justify-center bg-gradient-to-b from-white to-[#36b6ff25] pb-5 pt-10 "
+        className=" bg-gradient-to-b from-white to-[#36b6ff25] pb-5 pt-10"
       >
-        <div className="mt-6 py-1 md:flex md:max-w-screen-xl">
-          <div className="ml-0 md:ml-10 md:max-w-screen-sm lg:max-w-screen-xl">
+        <div className="mt-6 py-1 lg:flex">
+          <div className="ml-0 md:ml-10">
             <h1 className="mb-6 text-center text-4xl font-bold md:text-left">
               ABOUT US
             </h1>
@@ -58,17 +58,19 @@ const AboutUsPage = () => {
               hiring process for our clients across a variety of industries.
             </p>
           </div>
-          <div className=" mb-4 w-[1000px] md:mb-0 md:ml-10">
+          <div className="mb-4 w-[1000px] md:mb-0 md:ml-10">
             <img
-              className="mx-auto mt-2 h-[250px] w-[250px] rounded-full "
+              className="mx-auto mt-2 h-[250px] w-[250px] rounded-full"
               src="/dblogo-bluecircle.png"
               alt="DB Recruiting Logo"
             />
           </div>
         </div>
 
-        <div className="mx-auto w-full justify-center  text-center md:flex">
-          <div className="grid sm:grid-cols-2 md:flex">{displayTraits}</div>
+        <div className="bw-10 mx-auto justify-center border border-red-500 text-center md:flex">
+          <div className="bw-10  grid border  border-pink-500 md:grid-cols-2 xl:flex">
+            {displayTraits}
+          </div>
         </div>
       </div>
     </div>
