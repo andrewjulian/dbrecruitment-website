@@ -30,47 +30,46 @@ const traits = [
 
 const AboutUsPage = () => {
   const displayTraits = traits.map((trait) => (
-    <Trait trait={trait} key={trait.title} />
+    <Trait
+      trait={trait}
+      key={trait.title}
+    />
   ));
 
   return (
     <div className="relative">
       <div
         id="about"
-        className=" bg-gradient-to-b from-white to-[#36b6ff25] pb-5 pt-10"
+        className="mt-10 bg-gradient-to-b from-white to-[#36b6ff25] px-10 "
       >
-        <div className="mt-6 py-1 lg:flex">
-          <div className="ml-0 md:ml-10">
-            <h1 className="mb-6 text-center text-4xl font-bold md:text-left">
-              ABOUT US
-            </h1>
-            <p className="text-md mb-2 text-gray-600 md:mb-8 md:text-lg">
+        <div className="mx-12 grid grid-cols-1 md:grid-cols-4">
+          <div className="mb-8 sm:mb-0 md:col-span-3">
+            <h1 className="mb-4 text-4xl font-bold">ABOUT US</h1>
+            <p className="mb-4 text-lg text-gray-600">
               DB Recruitment Group was founded in 2022 by David Vacianna and Ben
               Puschett to focus on providing recruiting services to companies in
               the tech and IT industries. With the addition of Shelby Carter as
               lead recruiter, DB Recruiting is uniquely equipped to provide
               customized recruiting services to clients.
             </p>
-            <p className="text-md mb-6 text-gray-600 md:mb-8 md:text-lg">
+            <p className="text-lg text-gray-600">
               We are a team of skilled recruiters with a proven track record of
               success as top billers in previous roles. Through the use of RPO
               models, we are able to provide a more efficient and effective
               hiring process for our clients across a variety of industries.
             </p>
           </div>
-          <div className="mb-4 w-[1000px] md:mb-0 md:ml-10">
+          <div className="mb-5 flex items-center justify-center md:col-span-1 ">
             <img
-              className="mx-auto mt-2 h-[250px] w-[250px] rounded-full"
+              className="h-[18vw] w-auto rounded-full"
               src="/dblogo-bluecircle.png"
               alt="DB Recruiting Logo"
             />
           </div>
         </div>
 
-        <div className="bw-10 mx-auto justify-center border border-red-500 text-center md:flex">
-          <div className="bw-10  grid border  border-pink-500 md:grid-cols-2 xl:flex">
-            {displayTraits}
-          </div>
+        <div className=" mx-auto justify-center  text-center md:flex">
+          <div className="  grid  md:grid-cols-2 xl:flex">{displayTraits}</div>
         </div>
       </div>
     </div>

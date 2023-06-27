@@ -56,7 +56,7 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-90}
+            offset={-120}
             duration={500}
             onClick={handleNav}
             className="cursor-pointer hover:text-black"
@@ -93,7 +93,7 @@ const Navbar = () => {
 
         <li className="p-4">
           <Link
-            to="contact"
+            to="footer"
             spy={true}
             smooth={true}
             offset={-90}
@@ -109,7 +109,10 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div onClick={handleNav} className="m-2 block md:hidden">
+      <div
+        onClick={handleNav}
+        className="m-2 block md:hidden"
+      >
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
@@ -149,7 +152,7 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-90}
+              offset={-120}
               duration={500}
               onClick={handleNav}
               className="cursor-pointer hover:text-black"
@@ -186,7 +189,7 @@ const Navbar = () => {
 
           <li className="border-b border-[#36b6ff] py-4 pl-5">
             <Link
-              to="contact"
+              to="footer"
               spy={true}
               smooth={true}
               offset={-90}

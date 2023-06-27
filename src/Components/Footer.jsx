@@ -60,7 +60,10 @@ const Footer = () => {
   };
 
   return (
-    <div className=" text-base-content bg-black px-5 text-[#36b6ff]">
+    <div
+      id="footer"
+      className=" text-base-content bg-black px-5 text-[#36b6ff]"
+    >
       <footer className="border-t-2 px-3 pt-4 lg:px-9">
         <div className="row-gap-6 mb-8 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
@@ -103,7 +106,10 @@ const Footer = () => {
                 </div>
                 <div className="mt-2 grid items-center gap-1 px-2">
                   <div className=" flex">
-                    <a href="#" title="send email">
+                    <a
+                      href="#"
+                      title="send email"
+                    >
                       <p className="mr-1 text-white">
                         Email: info@dbrecruitmentgroup.com
                       </p>
