@@ -17,7 +17,7 @@ const traits = [
   {
     title: "Industry Expertise",
     description:
-      "Our team of experienced recruiters has in-depth knowledge of the defense and space industry. We stay up-to-date with the latest trends and requirements, enabling us to provide valuable insights and guidance throughout the hiring process.",
+      "Our team of experienced recruiters has in-depth knowledge across a wide range of industries. We stay up-to-date with the latest trends and requirements, enabling us to provide valuable insights and guidance throughout the hiring process.",
     image: "url(./industryexp.png)",
   },
   {
