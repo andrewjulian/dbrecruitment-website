@@ -9,7 +9,7 @@ const industryList = [
   {
     title: "Cybersecurity",
     description:
-      "DBRG specializes in placements in Private and Federal the Contracting requiring clearances.",
+      "DBRG specializes in Cybersecurity placements in the public, private, and federal sectors.",
     icons: (
       <HiLockClosed
         className="my-auto"
@@ -20,7 +20,7 @@ const industryList = [
   {
     title: "Defense",
     description:
-      "DBRG connects vetted and clearance approved workers with private and federal defense companies.",
+      "DBRG connects vetted and clearance-approved workers with private and federal defense companies.",
     icons: (
       <FaShieldAlt
         className="my-auto"
@@ -31,7 +31,7 @@ const industryList = [
   {
     title: "MSP",
     description:
-      "DBRG works with both Partner and End-Users that need Managed Services Tech professionals.",
+      "DBRG collaborates with both partners and end-users seeking highly skilled Managed Services Technology professionals.",
     icons: (
       <BsFillPersonVcardFill
         className="my-auto"
