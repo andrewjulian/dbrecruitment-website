@@ -23,7 +23,7 @@ const traits = [
   {
     title: "Confidentiality",
     description:
-      "We understand the importance of discretion and confidentiality when it comes to security clearances. Rest assured that your information will be handled with the utmost care and professionalism.",
+      "We recognize the significance of discretion and confidentiality throughout your job search. Be reassured that your information will be treated with the highest level of care and professionalism, ensuring your privacy and security.",
     image: "url(./confidential.png)",
   },
 ];
