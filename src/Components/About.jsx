@@ -23,7 +23,7 @@ const traits = [
   {
     title: "Confidentiality",
     description:
-      "We recognize the significance of discretion and confidentiality throughout your job search. Be reassured that your information will be treated with the highest level of care and professionalism, ensuring your privacy and security.",
+      "We recognize the significance of discretion and confidentiality throughout your job search. Be reassured that your proprietary information will be treated with the highest level of care and professionalism, ensuring your privacy and security.",
     image: "url(./confidential.png)",
   },
 ];
