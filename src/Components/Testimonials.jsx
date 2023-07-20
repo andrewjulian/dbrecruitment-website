@@ -3,16 +3,16 @@ import { TbCircleChevronLeft, TbCircleChevronRight } from "react-icons/tb";
 
 const reviews = [
   {
-    name: "Jennifer Gilligan - VP of Marketing and Business Development",
+    name: "Jennifer Gilligan",
     comment:
       "David is a consummate professional and has been very receptive to feedback on candidates. He has provided high-quality candidates for positions we had open and had excellent follow-ups. Will definitely use David and DB Recruitment Group in the future.",
     business: "IntegraMSP",
   },
   {
-    name: "Andrew Julian - Software Engineer",
+    name: "Andrew Julian",
     comment:
       "Working with Shelby, David, Ben, and the growing DBRG team was a great experience. They were very professional and helpful. I would highly recommend them to anyone looking for a new opportunity.",
-    business: "",
+    business: "Software Engineer",
   },
 ];
 
