@@ -62,7 +62,7 @@ const AboutUsPage = () => {
           </div>
           <div className="flex w-[25%] items-center">
             <img
-              className="mb-2 w-auto rounded-full md:h-[18vw]"
+              className="mb-2 mt-5 w-auto rounded-full md:h-[18vw] lg:mt-0"
               src="/dblogo-bluecircle.png"
               alt="DB Recruiting Logo"
             />
