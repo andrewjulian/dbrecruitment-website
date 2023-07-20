@@ -64,11 +64,11 @@ const Testimonials = () => {
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center justify-center space-x-3">
-                  <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                    <div className="pr-3 font-medium text-gray-900 dark:text-white">
+                  <div className="flex items-center divide-x-2 divide-gray-500 ">
+                    <div className="pr-3 font-medium text-gray-900">
                       {reviews[activeIndex].name}
                     </div>
-                    <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
+                    <div className="pl-3 text-sm font-light text-gray-500">
                       {reviews[activeIndex].business}
                     </div>
                   </div>
