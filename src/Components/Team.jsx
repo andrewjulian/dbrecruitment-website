@@ -17,16 +17,9 @@ const teamMembers = [
     image: "/david_profile.jpeg",
   },
   {
-    name: "Shelby Carter",
-    title1: "Lead Technical Recruiter",
-    title2: "Business Development",
-    linkedin: "https://www.linkedin.com/in/shelbygracecarter/",
-    image: "/shelby_profile.jpeg",
-  },
-  {
     name: "Mark Blaha",
-    title1: "Technical Sourcing Specialist for",
-    title2: "Top Secret Defense Positions",
+    title1: "Technical Talent",
+    title2: "Sourcing Specialist",
     linkedin: "https://www.linkedin.com/in/mark-blaha-34b2632b/",
     image: "/mark_profile.jpeg",
   },
@@ -34,7 +27,12 @@ const teamMembers = [
 
 const Team = () => {
   const team = teamMembers.map((member) => {
-    return <TeamMember member={member} key={member.name} />;
+    return (
+      <TeamMember
+        member={member}
+        key={member.name}
+      />
+    );
   });
 
   return (
