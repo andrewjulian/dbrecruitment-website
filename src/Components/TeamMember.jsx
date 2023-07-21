@@ -9,7 +9,7 @@ const TeamMember = ({ member }) => {
           src={member.image}
           alt={member.name}
         />
-        <h5 className="mb-1 text-2xl font-medium text-gray-900 dark:text-white">
+        <h5 className="mb-1 text-2xl font-medium text-gray-900">
           {member.name}
         </h5>
         <span className="text-md text-center text-gray-500">
@@ -19,7 +19,10 @@ const TeamMember = ({ member }) => {
           {member.title2}
         </span>
         <div className="py-auto my-3 flex h-[50px] items-center space-x-3 px-2 hover:scale-125 hover:rounded">
-          <a href={member.linkedin} target="_blank">
+          <a
+            href={member.linkedin}
+            target="_blank"
+          >
             <img
               src="https://icongr.am/devicon/linkedin-original-wordmark.svg?size=128&color=currentColor"
               alt="linkedin"
