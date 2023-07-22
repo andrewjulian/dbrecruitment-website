@@ -81,7 +81,7 @@ const Footer = () => {
               <p className=" text-sm text-white">
                 DB Recruitment Group is a team of skilled recruiters with a
                 proven track record of success as top billers in previous roles.
-                Through the use of RPO models, weare able to provide a more
+                Through the use of RPO models, we are able to provide a more
                 efficient and effective hiring process for our clients across a
                 variety of industries.
               </p>
