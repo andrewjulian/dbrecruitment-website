@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const Industry = ({ industry }) => {
   return (
@@ -12,6 +12,14 @@ const Industry = ({ industry }) => {
       <p className="mb-3 font-normal ">{industry.description}</p>
     </div>
   );
+};
+
+Industry.propTypes = {
+  industry: PropTypes.shape({
+    icons: PropTypes.node.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Industry;

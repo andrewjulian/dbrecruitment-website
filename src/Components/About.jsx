@@ -1,4 +1,3 @@
-import React from "react";
 import Trait from "../Components/Trait";
 
 const traits = [
@@ -46,7 +45,7 @@ const AboutUsPage = () => {
           <div className="mb-2 w-[75%] align-middle lg:mb-8 ">
             <h1 className="my-3 text-4xl font-bold">ABOUT US</h1>
             <p className=" mb-2 text-lg text-gray-600">
-              DB Recruitment Group was founded in 2022 by David Vacianna and Ben
+              DB Recruitment Group was founded by David Vacianna and Ben
               Puschett to focus on providing recruiting services to companies in
               the tech and IT industries. With all members of the team having
               extensive experience in a variety of fields, DB Recruitment Group

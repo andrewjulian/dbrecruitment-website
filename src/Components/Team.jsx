@@ -1,27 +1,21 @@
-import React from "react";
 import TeamMember from "./TeamMember";
 
 const teamMembers = [
   {
     name: "Ben Puschett",
-    title1: "Founder",
-    title2: "Head of Recruitment",
+    title1: "Head of Recruitment",
+    title2: "ben@dbrecruitmentgroup.com",
+    phone: "(347)-915-5404",
     linkedin: "https://www.linkedin.com/in/benjaminpuschett/",
     image: "/ben_profile.jpeg",
   },
   {
     name: "David Vacianna",
-    title1: "Founder",
-    title2: "Head of Business Development",
+    title1: "Head of Business Development",
+    title2: "david@dbrecruitmentgroup.com",
+    phone: "(347)-915-5404",
     linkedin: "https://www.linkedin.com/in/david-vacianna/",
     image: "/david_profile.jpeg",
-  },
-  {
-    name: "Mark Blaha",
-    title1: "Technical Talent",
-    title2: "Sourcing Specialist",
-    linkedin: "https://www.linkedin.com/in/mark-blaha-34b2632b/",
-    image: "/mark_profile.jpeg",
   },
 ];
 
@@ -41,7 +35,7 @@ const Team = () => {
       className=" relative z-10  bg-gradient-to-b from-[#36b6ff25] to-white pt-10"
     >
       <div className="z-10 mx-auto  grid max-w-screen-xl px-4 ">
-        <h1 className="mb-2 text-center text-4xl font-bold">OUR TEAM</h1>
+        <h1 className="mb-2 text-center text-4xl font-bold">LEADERSHIP</h1>
         <div className="mb-10 mt-6 grid justify-center gap-4 sm:grid-cols-2 md:pl-10 lg:flex lg:pl-0">
           {team}
         </div>

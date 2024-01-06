@@ -1,4 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
+
+import PropTypes from "prop-types";
 
 const Service = ({ title, content }) => {
   const [isOpened, setOpened] = useState(false);
@@ -14,7 +16,10 @@ const Service = ({ title, content }) => {
   };
 
   return (
-    <div onClick={handleOpening} className="border border-black">
+    <div
+      onClick={handleOpening}
+      className="border border-black"
+    >
       <div className="flex justify-between bg-white p-4 text-black">
         <h4 className="font-semibold">{title}</h4>
         {isOpened ? (
@@ -40,6 +45,11 @@ const Service = ({ title, content }) => {
       </div>
     </div>
   );
+};
+
+Service.propTypes = {
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
 };
 
 export default Service;

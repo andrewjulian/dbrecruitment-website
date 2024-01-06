@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 const Footer = () => {
@@ -96,6 +96,7 @@ const Footer = () => {
                     className="mt-2"
                     href="https://www.linkedin.com/company/db-recruitment-group/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <img
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
@@ -194,7 +195,7 @@ const Footer = () => {
 
               {error ? (
                 <div
-                  class="mb-4 rounded-lg bg-red-50 p-4 text-sm text-red-800 dark:bg-gray-800 dark:text-red-400"
+                  className="mb-4 rounded-lg bg-red-50 p-4 text-sm text-red-800 dark:bg-gray-800 dark:text-red-400"
                   role="alert"
                 >
                   <span className="font-medium">Error!</span> {error}
@@ -206,7 +207,7 @@ const Footer = () => {
 
         <div className="flex flex-col-reverse justify-between border-t pb-10 pt-5 lg:flex-row">
           <p className="text-sm text-gray-600">
-            © Copyright DB Recruitment Group 2023. All rights reserved.
+            © Copyright DB Recruitment Group 2024. All rights reserved.
           </p>
         </div>
       </footer>

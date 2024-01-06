@@ -1,4 +1,3 @@
-import React from "react";
 import Service from "../Components/Service";
 import "../App.css";
 
@@ -41,7 +40,7 @@ const Services = () => {
             <Service
               title={item.title}
               content={item.content}
-              key={item.title}
+              key={key}
             />
           ))}
         </div>

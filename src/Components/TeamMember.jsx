@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const TeamMember = ({ member }) => {
   return (
@@ -15,13 +15,19 @@ const TeamMember = ({ member }) => {
         <span className="text-md text-center text-gray-500">
           {member.title1}
         </span>
+        <a href={`mailto:${member.email}`}>
+          <button className="text-md text-center text-gray-500 hover:text-gray-700">
+            {member.title2}
+          </button>
+        </a>
         <span className="text-md text-center text-gray-500">
-          {member.title2}
+          {member.phone}
         </span>
         <div className="py-auto my-3 flex h-[50px] items-center space-x-3 px-2 hover:scale-125 hover:rounded">
           <a
             href={member.linkedin}
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src="https://icongr.am/devicon/linkedin-original-wordmark.svg?size=128&color=currentColor"
@@ -33,6 +39,10 @@ const TeamMember = ({ member }) => {
       </div>
     </div>
   );
+};
+
+TeamMember.propTypes = {
+  member: PropTypes.object.isRequired,
 };
 
 export default TeamMember;

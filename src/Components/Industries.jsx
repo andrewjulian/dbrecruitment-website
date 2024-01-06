@@ -1,4 +1,3 @@
-import React from "react";
 import { HiLockClosed } from "react-icons/hi";
 import { BsFillPersonVcardFill } from "react-icons/bs";
 import { HiOutlineDesktopComputer } from "react-icons/hi";

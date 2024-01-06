@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const Trait = ({ trait }) => {
   return (
@@ -23,4 +23,7 @@ const Trait = ({ trait }) => {
   );
 };
 
+Trait.propTypes = {
+  trait: PropTypes.object.isRequired,
+};
 export default Trait;
