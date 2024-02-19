@@ -65,8 +65,8 @@ const Footer = () => {
       className=" text-base-content bg-black px-5 text-[#36b6ff]"
     >
       <footer className="border-t-2 px-3 pt-4 lg:px-9">
-        <div className="row-gap-6 mb-8 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="sm:col-span-2">
+        <div className="row-gap-6 mb-8 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="sm:col-span-1">
             <a className="inline-flex items-center">
               <img
                 className="my-4 h-16 w-16"
@@ -88,61 +88,52 @@ const Footer = () => {
             </div>
             <div>
               <p className="mt-4 text-lg font-bold tracking-wide text-[#36b6ff]">
-                Connect with Us!
+                Industry Codes
               </p>
+              <p className="text-sm text-white">SAM.GOV UEI: WK3WPL8V5J26</p>
+              <p className="text-sm text-white">DUNS Number: 119195889</p>
+              <p className="text-sm text-white">NAICS Code: 561311</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2 text-sm sm:mt-6 md:mx-auto">
+            <p className="mt-4 text-lg font-bold tracking-wide text-[#36b6ff]">
+              Connect with Us!
+            </p>
+            <div className="flex items-center gap-1 pr-2">
               <div className="flex items-center gap-1 pr-2">
-                <div className="flex items-center gap-1 pr-2">
+                <a
+                  className="mt-2"
+                  href="https://www.linkedin.com/company/db-recruitment-group/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                    alt="linkedin"
+                    className="h-16 w-16"
+                  />
+                </a>
+              </div>
+              <div className="mt-2 grid items-center gap-1 px-2">
+                <div className=" flex">
                   <a
-                    className="mt-2"
-                    href="https://www.linkedin.com/company/db-recruitment-group/"
-                    target="_blank"
-                    rel="noreferrer"
+                    href="#"
+                    title="send email"
                   >
-                    <img
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                      alt="linkedin"
-                      className="h-16 w-16"
-                    />
+                    <p className="mr-1 text-white">
+                      Email: info@dbrecruitmentgroup.com
+                    </p>
                   </a>
                 </div>
-                <div className="mt-2 grid items-center gap-1 px-2">
-                  <div className=" flex">
-                    <a
-                      href="#"
-                      title="send email"
-                    >
-                      <p className="mr-1 text-white">
-                        Email: info@dbrecruitmentgroup.com
-                      </p>
-                    </a>
-                  </div>
-                  <div className="flex">
-                    <p className="mr-1 text-white">Phone: (347)-915-5404</p>
-                  </div>
+                <div className="flex">
+                  <p className="mr-1 text-white">Phone: (347)-915-5404</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col gap-2 text-sm sm:mt-6">
-            <p className="text-lg font-bold tracking-wide text-[#36b6ff]">
-              Industries Served
-            </p>
-            <a className="text-gray-400">Defense</a>
-            <a className="text-gray-400">Cybersecurity</a>
-            <a className="text-gray-400">MSP</a>
-            <a className="text-gray-400">SaaS</a>
-
-            <p className="text-lg font-bold tracking-wide text-[#36b6ff]">
-              Services Offered
-            </p>
-            <a className="text-gray-400">Direct Hire</a>
-            <a className="text-gray-400">Contract Staffing</a>
-            <a className="text-gray-400">Recruitment Process Outsourcing </a>
-            <a className="text-gray-400">Executive Search</a>
-          </div>
-
-          <div className="flex flex-col gap-2 text-sm sm:mt-5">
+          <div className="flex flex-col gap-2 text-sm sm:mt-8">
             <p className=" text-lg font-bold tracking-wide text-[#36b6ff]">
               Send Us a Message
             </p>
@@ -171,7 +162,7 @@ const Footer = () => {
               />
               <textarea
                 onChange={(e) => setMessage(e.target.value)}
-                className="h-[12vh] border-2 border-gray-300 p-2 text-black"
+                className="h-[11vh] border-2 border-gray-300 p-2 text-black"
                 name="message"
                 id="message"
                 placeholder="Message content..."

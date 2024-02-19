@@ -19,7 +19,7 @@ const App = () => {
         <Route
           path="/"
           element={
-            <div className="align-center justify-center">
+            <div className="align-center  justify-center">
               <Navbar />
               <Hero />
               <About />

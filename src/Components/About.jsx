@@ -41,10 +41,10 @@ const AboutUsPage = () => {
         id="about"
         className="mt-10 bg-gradient-to-b from-white to-[#36b6ff25] "
       >
-        <div className="mb-2 flex flex-col items-center justify-center px-[11vw] lg:flex-row">
-          <div className="mb-2 w-[75%] align-middle lg:mb-8 ">
+        <div className="mx-auto mb-2 flex max-w-[1250px] flex-col items-center justify-between px-10 md:flex-row  xl:px-0">
+          <div className="mb-2 align-middle lg:mb-8 lg:mr-10 lg:w-[70%] ">
             <h1 className="my-3 text-4xl font-bold">ABOUT US</h1>
-            <p className=" mb-2 text-lg text-gray-600">
+            <p className=" mb-2 text-xl text-gray-600">
               DB Recruitment Group was founded by David Vacianna and Ben
               Puschett to focus on providing recruiting services to companies in
               the tech and IT industries. With all members of the team having
@@ -52,20 +52,12 @@ const AboutUsPage = () => {
               is uniquely equipped to provide customized recruiting services to
               clients from many diverse industries.
             </p>
-            <p className="text-lg text-gray-600">
-              We are a team of skilled recruiters with a proven track record of
-              success as top billers in previous roles. Through the use of RPO
-              models, we are able to provide a more efficient and effective
-              hiring process for our clients across a variety of industries.
-            </p>
           </div>
-          <div className="flex w-[25%] items-center">
-            <img
-              className="mb-2 mt-5 w-auto rounded-full md:h-[18vw] lg:mt-0"
-              src="/dblogo-bluecircle.png"
-              alt="DB Recruiting Logo"
-            />
-          </div>
+          <img
+            src="/dblogo-bluecircle.png"
+            alt="DB Recruitment Group"
+            className="mx-auto h-40 w-40"
+          />
         </div>
 
         <div className="mx-auto justify-center  text-center md:flex">

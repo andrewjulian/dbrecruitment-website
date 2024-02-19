@@ -13,6 +13,9 @@ const Services = () => {
       content:
         "With our Contract Staffing service, we provide skilled professionals for specified contract periods, facilitating project-specific hiring and allowing for flexibility and scalability within your organization.",
     },
+  ];
+
+  const data2 = [
     {
       title: "Recruitment Process Outsourcing",
       content:
@@ -23,26 +26,37 @@ const Services = () => {
       content:
         "Our Executive Search service connects your organization with industry-leading executives. We leverage our deep industry knowledge and extensive network to identify and secure high-caliber leaders that can guide your organization to new heights.",
     },
-    /* {
-      title: "Managed Services",
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo. Impedit nesciunt beatae debitis delectus pariatur nostrum maiores magni quibusdam officia tempore quis ea molestiae ducimus error nemo, tenetur possimus, earum illo.",
-    }, */
   ];
   return (
     <div
       id="services"
-      className="text-based-content relative grid w-full bg-gradient-to-b from-[#36b6ff50] to-[#36b6ff25] py-10"
+      className="text-based-content relative grid w-full bg-gradient-to-b from-[#36b6ff50] to-[#36b6ff25]  px-10 py-20"
     >
-      <div className="mx-auto w-[60%]">
-        <div className="container mx-auto">
-          {data.map((item, key) => (
-            <Service
-              title={item.title}
-              content={item.content}
-              key={key}
-            />
-          ))}
+      <div className="mx-auto  flex max-w-[1250px] flex-col ">
+        <div>
+          <h1 className="mb-6  text-center text-4xl font-bold  md:text-left">
+            SERVICES WE OFFER
+          </h1>
+        </div>
+        <div className="flex flex-col lg:flex-row lg:gap-10">
+          <div className="container mx-auto w-full lg:w-[50%]">
+            {data.map((item, key) => (
+              <Service
+                title={item.title}
+                content={item.content}
+                key={key}
+              />
+            ))}
+          </div>
+          <div className="container mx-auto w-full lg:w-[50%]">
+            {data2.map((item, key) => (
+              <Service
+                title={item.title}
+                content={item.content}
+                key={key}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

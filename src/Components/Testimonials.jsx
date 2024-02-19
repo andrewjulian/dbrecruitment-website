@@ -4,15 +4,34 @@ import { TbCircleChevronLeft, TbCircleChevronRight } from "react-icons/tb";
 const reviews = [
   {
     name: "Jennifer Gilligan",
+    picture: "/jennifer.jpeg",
     comment:
       "David is a consummate professional and has been very receptive to feedback on candidates. He has provided high-quality candidates for positions we had open and had excellent follow-ups. Will definitely use David and DB Recruitment Group in the future.",
     business: "IntegraMSP",
+    logo: "/integramsp.jpeg",
   },
   {
     name: "Andrew Julian",
+    picture: "/andrew.jpeg",
     comment:
-      "Working with Shelby, David, Ben, and the growing DBRG team was a great experience. They were very professional and helpful. I would highly recommend them to anyone looking for a new opportunity.",
+      "Working with David and Ben at DBRG was a great experience. They were very professional and helpful. I would highly recommend them to anyone looking for a new opportunity.",
     business: "Software Engineer",
+  },
+  {
+    name: "Vitaly Bekkerman",
+    picture: "/vitaly.jpeg",
+    comment:
+      "We've been working with DB Recruitment Group for several months now. They are very proactive and responsive. There is a steady flow of candidates. They communicate with us often to get updates on the openings and provide relevant candidates we could hire. They are one of the best recruiting firms we've worked with. We are looking forward to a continuing mutually beneficial relationship.",
+    business: "FiveTwelve LLC",
+    logo: "/512.jpeg",
+  },
+  {
+    name: "Jolynn Pehlke",
+    picture: "/jolynn.jpeg",
+    comment:
+      "I highly recommend DB Recruitment Group for their exceptional recruitment services. Their team demonstrated a deep understanding of our hiring needs, providing a personalized and efficient approach. The quality of candidates exceeded our expectations, showcasing they understood our needs. Clear communication and transparency throughout the process made working with them a seamless experience. DBRG has become our trusted partner for all our recruitment needs, thanks to their professionalism, dedication, and ability to consistently deliver top-notch talent.",
+    business: "Advantex Consulting",
+    logo: "/advantex.jpeg",
   },
 ];
 
@@ -32,7 +51,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white px-10 lg:px-0">
       <div
         id="testimonials"
         className="mx-10  max-w-4xl bg-white  sm:mx-auto"
@@ -59,17 +78,33 @@ const Testimonials = () => {
                   />
                 </svg>
                 <blockquote>
-                  <p className="text-md font-medium text-gray-900  md:text-2xl">
+                  <p className="text-md font-medium text-gray-900  md:text-xl">
                     {reviews[activeIndex].comment}
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center justify-center space-x-3">
-                  <div className="flex items-center divide-x-2 divide-gray-500 ">
-                    <div className="pr-3 font-medium text-gray-900">
-                      {reviews[activeIndex].name}
+                  <div className="flex flex-col items-center divide-x-2 divide-white lg:flex-row  lg:divide-gray-500 ">
+                    <div className="flex flex-row gap-2">
+                      <img
+                        src={reviews[activeIndex].picture}
+                        className="h-10 w-10 rounded-full"
+                      />
+                      <div className="my-auto divide-x-2 pr-3 font-medium text-gray-900">
+                        {reviews[activeIndex].name}
+                      </div>
                     </div>
-                    <div className="pl-3 text-sm font-light text-gray-500">
-                      {reviews[activeIndex].business}
+                    <div className="flex flex-row">
+                      <div className="my-auto pl-3 text-sm font-light text-gray-500">
+                        {reviews[activeIndex].business}
+                      </div>
+                      <div className="pl-3">
+                        {reviews[activeIndex].logo && (
+                          <img
+                            src={reviews[activeIndex].logo}
+                            className="h-10 w-10 rounded-full"
+                          />
+                        )}
+                      </div>
                     </div>
                   </div>
                 </figcaption>

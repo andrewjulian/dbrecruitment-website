@@ -5,7 +5,7 @@ const teamMembers = [
     name: "Ben Puschett",
     title1: "Head of Recruitment",
     title2: "ben@dbrecruitmentgroup.com",
-    phone: "(347)-915-5404",
+    phone: "(347)-292-7588",
     linkedin: "https://www.linkedin.com/in/benjaminpuschett/",
     image: "/ben_profile.jpeg",
   },
