@@ -92,6 +92,7 @@ const Footer = () => {
               </p>
               <p className="text-sm text-white">SAM.GOV UEI: WK3WPL8V5J26</p>
               <p className="text-sm text-white">DUNS Number: 119195889</p>
+              <p className="text-sm text-white">CAGE Code: 9T1U1</p>
               <p className="text-sm text-white">NAICS Code: 561311</p>
             </div>
           </div>
